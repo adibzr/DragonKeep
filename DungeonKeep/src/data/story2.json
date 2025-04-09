@@ -1,0 +1,1008 @@
+{
+  "title": "Dragon's Keep: The Guardian's Legacy",
+  "branches": {
+    "start": {
+      "title": "A Royal Summons",
+      "description": "The kingdom of Aldurath is in peril.\n\nFor three nights, a massive shadow has passed over the villages near the mountains, leaving destruction in its wake. Livestock vanish, buildings burn, and last night an entire hamlet disappeared. As the realm's most renowned adventurer, you've been summoned by the desperate Queen herself.The ancient Dragon's Keep has awakened, she tells you, her voice steady despite the fear in her eyes. The sacred Heartstone that sealed the dungeon for centuries has been stolen. Without it, the dragon Kaelindrath will break free to unleash devastation not seen for a thousand years. She presses a weathered map into your hands. Find the Heartstone within the Keep. Return it to its pedestal—or slay the dragon if you must. The thief was seen entering the dungeon three days ago. Armed with your trusty sword, a small torch, and the weight of a kingdom's survival on your shoulders, you stand before the ancient stone entrance of Dragon's Keep. Strange runes flicker with blue fire around the archway.\n\nThe heavy door creaks open at your touch, as if inviting you inside.",
+      "choices": [
+        {
+          "text": "Take the Left Corridor - A narrow passage with flickering torches and the scent of smoke",
+
+          "nextBranch": "branchA"
+        },
+        {
+          "text": "Take the Right Corridor - A wider tunnel with glowing runes similar to those at the entrance",
+
+          "nextBranch": "branchB"
+        },
+        {
+          "text": "Take the Central Staircase - Stone steps descending into deeper darkness, marked with royal symbols",
+
+          "nextBranch": "branchC"
+        }
+      ]
+    },
+    "branchA": {
+      "title": "Embers in the Dark",
+      "description": "The narrow passage winds through ancient stonework. Torches sputter with unnatural persistence—they must have been burning for years, yet remain unconsumed. You hear water dripping somewhere in the distance, and the faint sound of labored breathing. After walking for several minutes, you discover a wounded knight slumped against the wall. The royal crest of Aldurath adorns his damaged armor, which bears claw marks unlike any beast you've encountered. A small medallion with a blue crystal hangs from his neck. You... you shouldn't be here, he coughs, clutching a wound at his side. I was part of the Queen's Guard. We followed the thief, but the shadows... they took the others.",
+      "choices": [
+        {
+          "text": "Help the knight and ask about the thief",
+          "nextBranch": " branchA1"
+        },
+        { "text": "Ask about the dragon", "nextBranch": " branchA1a" },
+        {
+          "text": "Ignore the knight and continue alone",
+          "nextBranch": " branchA2"
+        }
+      ]
+    },
+    "branchA1a": {
+      "title": "The Guardian's Truth",
+      "description": "The dragon? The knight laughs bitterly, wincing at the pain it causes. We've all been misled. Kaelindrath was never the monster—she was the guardian. For centuries, she protected the realm by containing what lies beneath the Keep. He grips your arm with surprising strength. The Heartstone doesn't imprison the dragon—it gives her the power to maintain the true seal. Without it, both she and the ancient evil will escape. The thief... works for someone who wants exactly that. His eyes grow distant. I heard Kaelindrath's voice in my mind as the shadows attacked. She's weakening. Find her. Help her.",
+      "choices": [
+        {
+          "text": "Ask for his guidance to reach the dragon",
+          "nextBranch": " branchA1"
+        },
+        {
+          "text": "Ask who would want to release an ancient evil",
+          "nextBranch": " branchA1b"
+        }
+      ]
+    },
+    "branchA1b": {
+      "title": "Ancient Enemies",
+      "description": "The Order of the Ebon Flame, the knight whispers, his voice filled with dread. A cult that worships what lies sealed beneath—a being they call the Shadow Sovereign. They believe its return will grant them power beyond imagination. He pulls a small journal from his belt. Take this. The captain recorded our findings. We discovered the Order infiltrated the royal court years ago. He looks at you meaningfully. Trust no one who sent you here. Find the true Heartstone—not the decoy the Queen believes was stolen. You flip through the journal and find disturbing evidence suggesting high-ranking officials in Aldurath may be cultists, including someone close to the Queen herself.",
+      "choices": [
+        {
+          "text": "Thank him and ask how to reach the dragon safely",
+          "nextBranch": " branchA1"
+        },
+        {
+          "text": "Continue your journey with this new information",
+          "nextBranch": " branchA2"
+        }
+      ]
+    },
+    "branchA1": {
+      "title": "Knight's Guidance",
+      "description": "You bandage the knight's wounds with supplies from your pack. The relief in his eyes is palpable. Take this, he whispers, removing the medallion from his neck. It's a Scale-Stone—forged from Kaelindrath's shed scales centuries ago. It will protect you from dragon fire and shadow magic alike. He draws a crude map on the ground. The thief took a hostage—a young scholar who can translate the runes that locate the Heartstone. Follow this passage to its end. You'll find a hidden entrance to a sacred chamber. The dragon may seem hostile at first—her mind is clouded without the Heartstone's connection. Show her the Scale-Stone, and she may recognize you as an ally.",
+      "choices": [
+        {
+          "text": "Follow his advice to the sacred chamber",
+          "nextBranch": " sacredPath"
+        },
+        {
+          "text": "Ask about other routes or potential allies in the dungeon",
+          "nextBranch": " branchA1-2"
+        }
+      ]
+    },
+    "branchA1-2": {
+      "title": "Hidden Factions",
+      "description": "There are others in the Keep, the knight confirms, his voice growing weaker. A faction of kobolds still serves Kaelindrath faithfully—they may help if you mention the Scale-Stone. And the ancient automatons still patrol the lower levels—they'll attack anyone without proper royal insignia. He points to a barely visible side passage. That leads to what once was the treasury. The royal archaeologist was studying there before the thief came. If she survived, her knowledge would be invaluable. As you prepare to leave, he grabs your wrist. Remember—the dragon is not what the stories claim. This dungeon was built to be a prison, not a lair. What's sealed below is the true threat.",
+      "choices": [
+        {
+          "text": "Seek out the treasury and the archaeologist",
+          "nextBranch": " treasuryPath"
+        },
+        {
+          "text": "Bid the knight farewell and continue to the sacred chamber",
+          "nextBranch": " sacredPath"
+        }
+      ]
+    },
+    "treasuryPath": {
+      "title": "Forgotten Riches",
+      "description": "The narrow side passage opens into a vast circular chamber with a domed ceiling. Once-organized shelves and display cases now lie in disarray. Gold coins and artifacts are scattered across the floor—valuable, but not your mission.  At the center, hunched over an ancient pedestal, stands a woman in scholarly robes, frantically transcribing something. She jumps at your approach, brandishing a ceremonial dagger. Stay back! I'll not let another thief destroy these records! she shouts, then narrows her eyes. Wait... you're not with them. Did the Queen finally send help? Dr. Elara Voss, Royal Archaeologist of Aldurath, lowers her weapon and shows you what she's protecting: a stone tablet depicting a dragon coiled around a glowing gem, with smaller dragons—or dragon-kin—prostrating before it.",
+      "choices": [
+        {
+          "text": "Ask about the Heartstone and its true purpose",
+          "nextBranch": " treasuryPath1"
+        },
+        {
+          "text": "Ask about the thief and what they might be planning",
+          "nextBranch": "treasuryPath2"
+        },
+        {
+          "text": "Show her the knight's journal about the cult",
+          "nextBranch": "treasuryPath3"
+        }
+      ]
+    },
+    "treasuryPath1": {
+      "title": "The Heartstone's Legacy",
+      "description": "The Heartstone is far more than a key, Elara explains, shifting scrolls to reveal more images. It's a piece of ancient dragon magic—a fragment of Kaelindrath's actual heart, crystallized and freely given to the first rulers of Aldurath. She points to various runes and illustrations. The dragon voluntarily bound herself to guard the seal. The Heartstone creates a symbiotic link—it gives her immortality and enhances her power, while using that power to maintain the magical barrier. She looks grave. Without it, Kaelindrath is dying. And as she weakens, so does the seal on the Shadow Sovereign—a being of pure magical corruption that nearly destroyed the world during the Age of Night.",
+      "choices": [
+        {
+          "text": "Ask where the true Heartstone is located",
+          "nextBranch": "heartLocation"
+        },
+        {
+          "text": "Ask about the cult mentioned in the knight's journal",
+          "nextBranch": "treasuryPath3"
+        }
+      ]
+    },
+    "treasuryPath2": {
+      "title": "The Thief's Identity",
+      "description": "Elara's expression darkens. The 'thief' is Lord Drezden, the Queen's own advisor on magical affairs. He came with royal guards—I thought it was an official expedition until they started destroying my research and took my assistant, Kiran, hostage. She shows you a partially burned scroll. They needed Kiran because he's the only one besides me who can read the Elder Script that reveals the Heartstone's chamber. Drezden wore the insignia of the Ebon Flame—a cult I've warned the court about for years. She glances nervously at the entrance. They'll need to perform a ritual with the Heartstone at midnight on the third day—which is tonight—to break the final seal. We have hours at most.",
+      "choices": [
+        {
+          "text": "Ask where we need to go to stop them",
+          "nextBranch": "heartLocation"
+        },
+        {
+          "text": "Show her the knight's journal about the cult's infiltration",
+          "nextBranch": "treasuryPath3"
+        }
+      ]
+    },
+    "treasuryPath3": {
+      "title": "Court Conspiracy",
+      "description": "Elara reads the journal with growing horror. This confirms everything I've suspected. Lord Drezden has been gathering power for years, placing cult members in key positions. She points to a name. The Captain of the Queen's Guard remains loyal—thank the gods—but Drezden has the Queen's ear.  She slams the journal shut. The 'stolen' Heartstone was a fake—a decoy kept in the royal vault. The real one has always been in the dragon's keeping, deep in the sanctum chamber. Drezden likely used the false theft to manipulate the Queen into sending forces here, creating chaos while he searches for the true stone.  Her eyes widen with realization. They need both Kaelindrath's blood and the Heartstone for their ritual. They're not just stealing it—they plan to kill her.",
+      "choices": [
+        {
+          "text": "Ask her to guide you to the sanctum chamber",
+          "nextBranch": "heartLocation"
+        },
+        {
+          "text": "Ask if there's a way to warn the dragon",
+          "nextBranch": " warnDragon"
+        }
+      ]
+    },
+    "warnDragon": {
+      "title": "Dragon's Call",
+      "description": "The kobold tribe might help, Elara suggests. They maintain an ancient communication system—speaking tubes that reach to the deepest chambers. If we find their warren, we could warn Kaelindrath before Drezden reaches her.  She gathers her most crucial scrolls. But the kobolds are wary of humans since cultists slaughtered many of them last month. We'll need proof of our intentions.  She eyes the Scale-Stone medallion you received from the knight. That would convince them. They revere such artifacts.  As she speaks, you hear a scuffling sound from a collapsed section of the wall—small clawed feet and whispered conversations in a reptilian tongue.",
+      "choices": [
+        {
+          "text": "Show the Scale-Stone and call out peacefully to the kobolds",
+          "nextBranch": " koboldAllies"
+        },
+        {
+          "text": "Ask Elara to lead you directly to the sanctum instead",
+          "nextBranch": "heartLocation"
+        }
+      ]
+    },
+    "koboldAllies": {
+      "title": "Unexpected Allies",
+      "description": "You hold up the Scale-Stone and call out in greeting. After tense moments, three small reptilian figures emerge. They wear simple leather armor adorned with dragon scales and carry well-crafted spears. Their eyes fix on the medallion. Scale-Bearer, the lead kobold says in accented common tongue. You bear the Blessed Gift. You seek to help Great Mother Kaelindrath? When you explain your mission, they exchange urgent words in their language. The leader bows. I am Skirsnik, Clutch-Commander. We know of the evil ones who invaded. They killed many of our kin and forced the rest deeper into the warren. We must hurry—our scouts report the evil ones approach the Sacred Chamber.  Elara speaks to them in their own tongue, causing them to look at her with new respect. Skirsnik nods decisively. We show fast path. We help fight shadow-lovers.",
+      "choices": [
+        {
+          "text": "Follow the kobolds through their secret passages",
+          "nextBranch": " koboldPath"
+        },
+        {
+          "text": "Ask them to warn Kaelindrath while you and Elara take the main route",
+          "nextBranch": " splitPaths"
+        }
+      ]
+    },
+    "koboldPath": {
+      "title": "The Warren Path",
+      "description": "Skirsnik leads you through a narrow crack in the wall, revealing an intricate network of tunnels clearly designed for beings of kobold stature. You must crouch uncomfortably, but the path seems to descend rapidly toward the heart of the dungeon.  The walls are adorned with crude but reverent depictions of Kaelindrath and various moments from her long history as guardian. Some paintings show her battling a shadowy entity, others show kobolds receiving blessings or knowledge from her.  Great Mother teaches ancestors writing, metalwork, magic, Skirsnik explains proudly. We serve for thousands of years as her eyes, ears, and helpers. We maintain the ancient mechanisms that strengthen the seal. He pauses at a junction where the path has collapsed. Cultists sabotage old ways. They corrupt some of our kind with promises. His eyes narrow. Traitors help them navigate Keep.",
+      "choices": [
+        {
+          "text": "Ask about these traitor kobolds",
+          "nextBranch": " traitorInfo"
+        },
+        {
+          "text": "Ask how much farther to the Sacred Chamber",
+          "nextBranch": " approachSanctum"
+        }
+      ]
+    },
+    "traitorInfo": {
+      "title": "Divided Loyalties",
+      "description": "Tribe-split happened one moon ago, Skirsnik explains bitterly. Darktongue, once respected shaman, claimed to receive visions from the Shadow Below. Said Great Mother's time was ending, that we should serve new master to survive.  Another kobold spits on the ground. Darktongue leads twenty warriors. They wear black scales now. They know all secret ways.  Elara looks troubled. The cult probably promised them safety when their master returns. Classic manipulation.  Skirsnik nods grimly. They guard ritual chamber now. We must be silent—they patrol ahead. He hands each of you a small vial of glowing blue liquid. Dragon's tear—will hide your scent from them. Drink.",
+      "choices": [
+        {
+          "text": "Drink the potion and continue stealthily",
+          "nextBranch": " stealthApproach"
+        },
+        {
+          "text": "Suggest confronting the traitors directly",
+          "nextBranch": " confrontationPlan"
+        }
+      ]
+    },
+    "splitPaths": {
+      "title": "Divided Forces",
+      "description": "Good strategy, Skirsnik agrees. We faster in small tunnels. Can warn Great Mother while you approach from main path.  He gives you detailed directions to the sanctum entrance, then hands you a small carved stone. Show this to any loyal kobolds you meet. They will know you friend. Elara studies the main route on her map. I can get us there, but we'll likely encounter cultists or corrupted guardians. Are you prepared for combat? The kobolds disappear into their tunnel, promising to delay the ritual if they can. You hear Skirsnik calling orders to his warriors as they vanish into the darkness.",
+      "choices": [
+        {
+          "text": "Follow Elara through the main passageways",
+          "nextBranch": " mainApproach"
+        },
+        {
+          "text": "Ask Elara if there's a less direct but safer route",
+          "nextBranch": " alternateApproach"
+        }
+      ]
+    },
+    "stealthApproach": {
+      "title": "Shadows and Whispers",
+      "description": "The potion tastes of mint and something metallic. Almost immediately, you feel lighter, as if you're partially phasing out of reality. The kobolds lead you through increasingly ornate tunnels. Soon, you hear voices ahead—a mixture of kobold speech and human commands. Peeking around a corner, you see black-scaled kobolds guarding a magnificent doorway embedded with gems and dragon motifs. Among them stands a robed human figure consulting an ancient tome. That one is Drezden's apprentice, Elara whispers. Kiran must be inside with Drezden already. Skirsnik points to a small ventilation shaft. This leads to observation balcony above main chamber. We can see ritual preparation, maybe stop it.",
+      "choices": [
+        {
+          "text": "Use the ventilation shaft to reach the balcony",
+          "nextBranch": " observationPoint"
+        },
+        {
+          "text": "Prepare to fight through the guards directly",
+          "nextBranch": " directAssault"
+        }
+      ]
+    },
+    "confrontationPlan": {
+      "title": "Reclaiming Honor",
+      "description": "Skirsnik's eyes gleam with fierce approval at your suggestion. Yes! Traitors must face tribe justice. Perhaps some can be shown truth. The kobold warriors gather around as Skirsnik outlines a plan. Your presence changes balance. With human allies bearing Scale-Stone, loyal warriors will question Darktongue's prophecies. Elara suggests, If we can create doubt among the traitors, we might avoid bloodshed and gain valuable allies. After preparing simple but effective ambush positions, Skirsnik steps into the open passage and sounds a long, complex call on a bone whistle—a traditional summons that traitors cannot honorably ignore. Within minutes, you hear the approach of clawed feet.",
+      "choices": [
+        {
+          "text": "Let Skirsnik attempt to reason with them first",
+          "nextBranch": " koboldParley"
+        },
+        {
+          "text": "Prepare for immediate combat when they arrive",
+          "nextBranch": " koboldSkirmish"
+        }
+      ]
+    },
+    "koboldParley": {
+      "title": "Challenge of Faith",
+      "description": "A dozen black-scaled kobolds approach cautiously, led by an older kobold wearing elaborate bone jewelry and carrying a staff topped with a pulsing shadow crystal.  Darktongue, Skirsnik says coldly. You betray Great Mother. The shaman hisses. Great Mother betrayed us by growing weak! The Shadow Rising offers strength! His eyes widen when he notices you and the Scale-Stone. Impossible! The old prophecy— Skirsnik seizes the moment. See! Scale-Bearer comes as foretold! Great Mother's champion arrives at darkest hour! He speaks rapidly in their language, clearly citing traditional lore.  Several of the black-scaled kobolds look uncertain, their resolve wavering as they stare at your medallion. Darktongue shrieks commands, but three of his followers immediately drop to their knees before you.",
+      "choices": [
+        {
+          "text": "Show the Scale-Stone and appeal to their traditional loyalty",
+          "nextBranch": " rekindleLoyalty"
+        },
+        {
+          "text": "Challenge Darktongue directly to prove his claims",
+          "nextBranch": " shamanChallenge"
+        }
+      ]
+    },
+    "koboldSkirmish": {
+      "title": "Tunnel Battle",
+      "description": "The confrontation erupts into violence immediately. Black-scaled kobolds clash with Skirsnik's loyalists in the narrow tunnel. You find yourself fighting alongside your new allies against the betrayers.  Darktongue stays behind his warriors, chanting spells that cause shadows to coalesce into clawing hands. Elara counters with protective wards, nullifying the worst of his magic.  During the chaotic melee, you notice something strange—the Shadow Crystal atop Darktongue's staff seems to be influencing his followers. When kobolds fall near it, their eyes glaze as they rise again to fight, regardless of injuries. The staff! Elara shouts. It's controlling them! Destroy it!",
+      "choices": [
+        {
+          "text": "Fight through to reach Darktongue and destroy the staff",
+          "nextBranch": " destroyArtifact"
+        },
+        {
+          "text": "Use the Scale-Stone to try to disrupt the staff's magic",
+          "nextBranch": " counterMagic"
+        }
+      ]
+    },
+    "mainApproach": {
+      "title": "The Grand Corridors",
+      "description": "You and Elara navigate the once-magnificent main passages of Dragon's Keep. These wide halls were clearly designed to accommodate the dragon herself—and perhaps royal processions in ancient times.  Faded murals depict the founding of Aldurath: humans and dragons working together to imprison some great evil, with Kaelindrath voluntarily remaining as eternal guardian.  The partnership between dragons and humans lasted centuries before fading into myth, Elara explains. The truth became distorted—the guardian became the monster, the prison became the treasure hoard. You encounter the bodies of royal guards—ambushed by cultists—and carefully skirt mechanical traps triggered by the invaders. As you near the central chambers, you hear chanting echoing through the halls.",
+      "choices": [
+        {
+          "text": "Move quietly toward the source of the chanting",
+          "nextBranch": " approachRitual"
+        },
+        {
+          "text": "Search the fallen guards for useful items or information",
+          "nextBranch": " searchGuards"
+        }
+      ]
+    },
+    "heartLocation": {
+      "title": "The Path Forward",
+      "description": "Elara quickly sketches a map from memory. The Heartstone Chamber lies beyond the dragon's sanctum, through the Hall of Memories. We can reach it via the old royal passage, but it's surely guarded by now. She points to your Scale-Stone. That should protect you from the Keep's ancient defenses, but not from the cultists. They'll have positioned forces at every key junction. She gathers her notes and a small enchanted lantern. There's one advantage we have—I know this dungeon's layout better than anyone alive, including secret passages created for the royal family centuries ago. The sound of distant voices makes you both freeze. Someone is coming.",
+      "choices": [
+        {
+          "text": "Hide and observe who approaches",
+          "nextBranch": " hideObserve"
+        },
+        {
+          "text": "Take the secret royal passage Elara mentioned",
+          "nextBranch": " secretPassage"
+        }
+      ]
+    },
+    "secretPassage": {
+      "title": "Royal Sanctuary",
+      "description": "Elara quickly presses a specific sequence of stones on what appeared to be a solid wall. A section slides away, revealing a narrow but well-crafted passage. The ancient kings and queens maintained direct access to consult with Kaelindrath, she explains as you slip inside. The wall closes seamlessly behind you. The passage is illuminated by faint blue crystals embedded in the ceiling. Unlike the rest of the dungeon, this area shows no signs of decay—a preservation enchantment still functions. These tunnels lead directly to the royal observation chamber overlooking the dragon's sanctum, Elara whispers. From there, we should be able to assess the situation safely.",
+      "choices": [
+        {
+          "text": "Proceed cautiously to the observation chamber",
+          "nextBranch": " observationPoint"
+        },
+        {
+          "text": "Ask Elara more about Kaelindrath while moving forward",
+          "nextBranch": " dragonLore"
+        }
+      ]
+    },
+    "hideObserve": {
+      "title": "Unwelcome Visitors",
+      "description": "You pull Elara behind a fallen column just as a patrol rounds the corner. Three figures in black robes, led by a tall woman with a silver circlet, examine the room systematically. Anything, Inquisitor Veil? one cultist asks. The woman touches the dust where Elara was working. She was here recently. Find her—Drezden wants the archaeologist alive if possible. Her knowledge could be useful after the Awakening. As they spread out to search, one approaches your hiding spot. His hand falls to a curved dagger etched with sinister runes. You notice a loose stone near your foot—a potential distraction.",
+      "choices": [
+        {
+          "text": "Create a distraction and try to slip away",
+          "nextBranch": " createDistraction"
+        },
+        {
+          "text": "Prepare to silently neutralize the approaching cultist",
+          "nextBranch": " silentTakedown"
+        }
+      ]
+    },
+    "observationPoint": {
+      "title": "Overlooking Destiny",
+      "description": "You emerge onto a balcony overlooking a massive circular chamber. What you see below freezes your blood. In the center lies Kaelindrath—larger than any creature you've imagined, her scales a deep sapphire blue now dulled with age and illness. She's partially restrained by magic circles, struggling weakly. At her side stands Lord Drezden, a regal figure with cold eyes, directing robed cultists who work around an altar positioned near the dragon's chest. A young man—presumably Kiran—is translating inscriptions on the chamber walls under duress. Near him stands a pedestal with a pulsing red crystal: the true Heartstone. They're preparing to extract her heart's blood while removing the Heartstone from her influence, Elara whispers. The dual shock will break the final seal.",
+      "choices": [
+        {
+          "text": "Analyze the ritual for weaknesses before acting",
+          "nextBranch": " analyzeRitual"
+        },
+        {
+          "text": "Signal the kobolds for a coordinated attack",
+          "nextBranch": " coordinateAttack"
+        },
+        {
+          "text": "Try to communicate with the weakened dragon",
+          "nextBranch": " contactDragon"
+        }
+      ]
+    },
+    "dragonLore": {
+      "title": "The Guardian's History",
+      "description": "As you navigate the royal passage, Elara shares what few now remember. Kaelindrath was once one of five Great Guardian Dragons who imprisoned the Shadow Sovereign—a being that emerged from a tear between worlds during the Age of Night. The other guardians perished in the final battle, but Kaelindrath survived, volunteering to maintain an eternal vigil. She traces ornate carvings on the walls depicting this history. The first king of Aldurath was a dragon-rider who fought alongside her. When she sacrificed part of her heart to create the Heartstone, he swore his bloodline would forever honor and support her watch. She looks sad. Over generations, fear replaced gratitude. The Keep became forbidden ground, and Kaelindrath became a monster in children's tales. Only the Order of Scale-Bearers remembered the truth, serving in secret.",
+      "choices": [
+        {
+          "text": "Ask if the Queen knows the true history",
+          "nextBranch": " royalKnowledge"
+        },
+        {
+          "text": "Hurry forward to the observation chamber",
+          "nextBranch": " observationPoint"
+        }
+      ]
+    },
+    "royalKnowledge": {
+      "title": "Broken Traditions",
+      "description": "Elara's expression darkens. The current Queen is the first monarch in ten generations not to receive the traditional knowledge on her coronation day. Her father died suddenly before passing the legacy, and Lord Drezden—already positioned as royal advisor—ensured certain historical documents were 'lost.' She continues with growing urgency. I've tried for years to help her understand. The Scale-Bearers traditionally included the Captain of the Royal Guard, the Royal Archaeologist, and the Arcane Advisor—three pillars supporting the throne's connection to Kaelindrath. When I finally gained enough evidence to approach her directly, Drezden moved against us. The passage opens into a small antechamber with a viewing window. Beyond it lies the massive sanctum, where an unsettling scene unfolds below.",
+      "choices": [
+        {
+          "text": "Observe the sanctum carefully",
+          "nextBranch": " observationPoint"
+        },
+        {
+          "text": "Check the antechamber for useful artifacts or weapons",
+          "nextBranch": " ancientWeaponry"
+        }
+      ]
+    },
+    "createDistraction": {
+      "title": "Quick Thinking",
+      "description": "You kick the loose stone across the room. It clatters loudly against a metal brazier, echoing throughout the chamber. What was that? The Inquisitor gestures sharply. Check over there. Now! As the cultists move toward the noise, Elara points to a half-hidden servant's door. You both slip through it silently, finding yourselves in a narrow maintenance passage used by the Keep's original caretakers. We need to hurry, Elara whispers. That woman—Veil—is Drezden's enforcer. If she's here instead of at the ritual, they must be close to completing preparations. The passage branches in multiple directions, each marked with faded service symbols.",
+      "choices": [
+        {
+          "text": "Take the path marked with a dragon symbol",
+          "nextBranch": " dragonServants"
+        },
+        {
+          "text": "Follow the path with royal insignia",
+          "nextBranch": " royalQuarters"
+        }
+      ]
+    },
+    "dragonServants": {
+      "title": "The Faithful Few",
+      "description": "The dragon-marked passage leads to what appears to have been living quarters for those who directly served Kaelindrath. Though long abandoned, the area shows signs of recent habitation. You discover a small shrine still maintained with fresh offerings—fruits, small gemstones, and handcrafted tokens. A group of elderly humans and half-dragons turn in surprise at your entrance. Scale-Bearers, an ancient woman whispers, noticing your medallion. The prophecy speaks truth. You've come at the final hour. These people, Elara explains, are descendants of the original dragon-servants who refused to leave when the Keep was declared forbidden. They've maintained traditions in secret for centuries, living in the forgotten corners of the dungeon.",
+      "choices": [
+        {
+          "text": "Ask for their help reaching the sanctum safely",
+          "nextBranch": " faithfulAllies"
+        },
+        {
+          "text": "Ask what they know about the current situation",
+          "nextBranch": " servantIntel"
+        }
+      ]
+    },
+    "sacredPath": {
+      "title": "Path of the Faithful",
+      "description": "Following the knight's directions, you navigate deeper into the dungeon. The passage grows increasingly ornate—dragon motifs adorn the walls, and gemstones embedded in the ceiling cast a soft blue light. You encounter defensive mechanisms—floor panels that would trigger traps, magical wards that shimmer as you approach—but the Scale-Stone medallion glows warmly each time, and the defenses remain dormant, recognizing you as a rightful visitor. After nearly an hour of careful progress, you reach an immense set of doors crafted from what appears to be dragon scales fused with metal. They bear an inscription in an ancient language, glowing faintly as you approach. The Scale-Stone pulses in response, and slowly, silently, the massive doors begin to open.",
+      "choices": [
+        {
+          "text": "Enter with weapon ready but medallion visible",
+          "nextBranch": " sanctumEntrance"
+        },
+        {
+          "text": "Listen carefully before proceeding",
+          "nextBranch": " sanctumScouting"
+        }
+      ]
+    },
+    "branchA2": {
+      "title": "Alone in the Dark",
+      "description": "Leaving the wounded knight to his fate, you continue through the smoke-scented corridor. His labored breathing fades behind you, replaced by a heavy silence broken only by the distant drip of water and the occasional shifting of ancient stone.The passage eventually opens into a large chamber with two ornate doors. The left bears a carving of a dragon with wings spread protectively around a crystalline heart. The right features a skull surrounded by shadowy tendrils that seem to move in the flickering torchlight. As you examine the doors, you notice faded bloodstains leading toward the dragon door. Someone passed through here recently—and they were wounded. A torn piece of fabric caught on the door handle matches the royal insignia you saw on the knight's uniform.",
+      "choices": [
+        {
+          "text": "Choose the door with dragon carving",
+
+          "nextBranch": " dragonPath"
+        },
+        {
+          "text": "Choose the door with skull carving",
+
+          "nextBranch": " branchA2-2"
+        },
+        {
+          "text": "Search the chamber more thoroughly before deciding",
+
+          "nextBranch": " chamberSearch"
+        }
+      ]
+    },
+    "chamberSearch": {
+      "title": "Hidden Truths",
+      "description": "You methodically examine the chamber, finding several items of interest. Behind a fallen column, you discover a satchel containing a journal and a small crystal vial filled with luminescent blue liquid.The journal belongs to Captain Thorne of the Queen's Guard. The final entry reads: Ambushed by cultists. Drezden has betrayed the crown. The dragon door leads to the sacred chamber, but it's heavily guarded. The skull passage might offer a less direct route—ancient texts mention maintenance tunnels that servants once used. Trust no one sent by the court. The Queen has been deceived.The vial's label identifies it as Dragon's Breath—a potent alchemical concoction that temporarily grants resistance to shadow magic. According to a small note attached, it was intended for the royal archaeologist.",
+      "choices": [
+        {
+          "text": "Take the Dragon's Breath potion and use the dragon door",
+
+          "nextBranch": " dragonPath"
+        },
+        {
+          "text": "Take the potion and try the skull door's alternate route",
+
+          "nextBranch": " skullAlternate"
+        }
+      ]
+    },
+    "skullAlternate": {
+      "title": "The Servants' Passage",
+      "description": "The skull door opens with an ominous groan, revealing not the horror you expected but a simple utilitarian corridor—clearly designed for servants and maintenance workers who once tended the Keep.Old brackets that once held torches line the walls, and the floor shows signs of frequent use from centuries past. Unlike the grand chambers, this passage was built for function rather than intimidation.After walking for several minutes, you reach a junction where the path splits three ways. A faded signboard with nearly illegible writing offers minimal guidance. You can make out Sanctum Approach on one sign, Guard Quarters on another, and Feeding Chambers on the third.",
+      "choices": [
+        {
+          "text": "Take the Sanctum Approach",
+
+          "nextBranch": " sanctumBackdoor"
+        },
+        {
+          "text": "Investigate the Guard Quarters",
+
+          "nextBranch": " ancientGuards"
+        },
+        {
+          "text": "Check the Feeding Chambers",
+
+          "nextBranch": " feedingArea"
+        }
+      ]
+    },
+    "sanctumBackdoor": {
+      "title": "The Observer's Gallery",
+      "description": "The narrow passage climbs steadily upward, eventually opening onto a small balcony overlooking an enormous chamber. You've found an observation point designed for servants to monitor activities in the dragon's sanctum without disturbing important ceremonies.From this vantage, you witness a disturbing scene below. A dozen black-robed cultists surround a massive blue dragon—Kaelindrath—who lies weakened and partially restrained by glowing magical bonds. Despite her diminished state, her size is breathtaking—easily as large as a small castle.A distinguished-looking man who must be Lord Drezden directs the proceedings, consulting frequently with a terrified young scholar who translates inscriptions on the chamber walls. On a pedestal near the dragon's massive head rests a pulsing red crystal—likely the true Heartstone.",
+      "choices": [
+        {
+          "text": "Drink the Dragon's Breath potion and plan an intervention",
+
+          "nextBranch": " potionPower"
+        },
+        {
+          "text": "Look for other potential allies or advantages from your viewpoint",
+
+          "nextBranch": " sanctumSurvey"
+        }
+      ]
+    },
+    "dragonPath": {
+      "title": "Confronting Danger",
+      "description": "The dragon door opens onto a grand corridor clearly designed for ceremonial approaches to Kaelindrath's sanctum. Elaborate mosaics depict the history of the alliance between dragons and humans, including scenes of them fighting side-by-side against shadowy entities.You've traveled only a short distance when voices echo from ahead. Ducking behind a pillar, you observe a patrol of cultists in black robes, led by a severe-looking woman with a silver circlet.Inquisitor Veil, the ritual chamber is prepared, one reports. Lord Drezden believes the archaeologist still lurks within the Keep. If she reaches the sanctum with knowledge of the true binding, she could jeopardize everything.Find her, the woman commands. The Awakening cannot be interrupted. I'll join Drezden for the final preparations.",
+      "choices": [
+        {
+          "text": "Wait for them to pass, then continue toward the sanctum",
+
+          "nextBranch": " patrolEvade"
+        },
+        {
+          "text": "Follow the Inquisitor at a safe distance",
+
+          "nextBranch": " followInquisitor"
+        },
+        {
+          "text": "Drink the Dragon's Breath potion and confront them",
+
+          "nextBranch": " cultistConfrontation"
+        }
+      ]
+    },
+    "branchA2-2": {
+      "title": "The Poison Room",
+      "description": "The skull door swings open with surprising ease. You're greeted by an overpowering sweet smell that fills the chamber beyond. Ancient braziers burn with green flame, releasing a thick vapor that swirls around the room.Too late, you recognize the telltale scent of nightshade essence mixed with something far more sinister. The room is a deliberate trap—filled with poisonous spores engineered specifically to kill intruders.Your vision blurs as the toxin takes effect. Through the haze, you notice the withered remains of previous victims scattered across the floor—including several wearing the royal colors of Aldurath. Among them lies a journal, just out of reach, its pages open to a warning written in a desperate hand.As darkness closes in, you realize this was no accident—you were meant to choose this path. Someone has been manipulating events from the beginning.",
+      "type": "DEATH"
+    },
+    "branchB": {
+      "title": "Whispers in Stone",
+      "description": "The right corridor's walls are covered in glowing runes—the same strange script you saw at the entrance. As you move deeper, you notice patterns emerging: the runes aren't random decorations but form elaborate spells and historical records.The markings begin to pulse with soft blue light as you pass, responding to your presence. You feel a subtle warmth emanating from them, not threatening but almost welcoming.After walking for some time, you hear soft voices ahead—not human voices, but a chattering, reptilian sound. Approaching carefully, you discover a group of small, scaled humanoids working diligently to repair damaged runes. These must be kobolds—dragon-kin often depicted as vicious monsters in tales, yet these creatures handle the ancient magic with reverent care.They haven't noticed you yet.",
+      "choices": [
+        {
+          "text": "Approach peacefully with hands visible",
+          "nextBranch": " branchB1"
+        },
+        {
+          "text": "Observe them longer to learn more",
+          "nextBranch": " koboldObservation"
+        },
+        {
+          "text": "Find a way around without encountering them",
+          "nextBranch": " branchB2"
+        }
+      ]
+    },
+    "koboldObservation": {
+      "title": "Dragon's Servants",
+      "description": "You remain hidden, watching the kobolds work. Their labor is clearly skilled and purposeful—they're not merely maintaining the runes but strengthening them, following instructions from a larger, more decorated kobold who consults an ancient scroll.Hurry, the leader says in halting Common tongue. Seal weakens too fast. Great Mother needs all wards at full power before moon-peak.Another kobold replies anxiously, The shadow-loving humans broke main conduit in east sector. Magic leaks like blood.Fix what we can, the leader insists. The Scale-Bearer will come, as prophecy says. We must have faith.Their reference to a Scale-Bearer catches your attention—it sounds important. And their evident concern for Great Mother must refer to Kaelindrath, though not as an enemy but as someone they serve.",
+      "choices": [
+        {
+          "text": "Reveal yourself and offer help",
+          "nextBranch": " koboldAlliance"
+        },
+        {
+          "text": "Follow them when they finish their work",
+          "nextBranch": " trailKobolds"
+        },
+        {
+          "text": "Find another path to avoid interfering",
+          "nextBranch": " branchB2"
+        }
+      ]
+    },
+    "branchB1": {
+      "title": "The Keepers of Lore",
+      "description": "You step into view with open hands. The kobolds react with alarm, grabbing simple weapons—until one points at you with widening eyes.Wait! Human doesn't attack! Maybe friend? The apparent leader approaches cautiously, sniffing the air around you.You smell of outside world, he says in accented Common, but not of shadow-magic like bad humans. Why you here?When you explain your mission to find the Heartstone, the kobolds exchange excited whispers. The leader's expression shifts from suspicion to cautious hope.I am Skirsnik, lore-keeper of Great Mother Kaelindrath. If you truly seek to protect Heartstone from shadow-lovers, then prophecy speaks of you. He studies you intently. But how we know you speak truth?",
+      "choices": [
+        {
+          "text": "Explain everything the Queen told you about the mission",
+          "nextBranch": " truthfulMission"
+        },
+        {
+          "text": "Ask about the prophecy they mentioned",
+          "nextBranch": " prophecyQuestions"
+        },
+        {
+          "text": "Show them you mean no harm to their 'Great Mother'",
+          "nextBranch": " peacefulIntent"
+        }
+      ]
+    },
+    "truthfulMission": {
+      "title": "Royal Deception",
+      "description": "You share the details of your royal mission—the stolen Heartstone, the awakening dragon, the kingdom's peril. As you speak, the kobolds' expressions grow increasingly troubled.Skirsnik shakes his head vigorously. Queen been deceived! Heartstone never stolen from palace—because true Heartstone always here, with Great Mother! What Queen had was fake, placed by trusted advisor many seasons ago.Another kobold adds, Shadow-cult has infiltrated royal court. They create false crisis to lure Queen's soldiers here as distraction while they perform true ritual.Skirsnik reaches a decision. You have honest eyes. Come—we show you hidden library. Ancient texts explain everything. Then you understand real danger we all face.",
+      "choices": [
+        {
+          "text": "Follow them to the hidden library",
+          "nextBranch": " hiddenLibrary"
+        },
+        {
+          "text": "Ask who's behind this deception",
+          "nextBranch": " cultLeadership"
+        }
+      ]
+    },
+    "hiddenLibrary": {
+      "title": "Repository of Truth",
+      "description": "The kobolds lead you through a concealed door to a chamber that takes your breath away—a vast underground library with towering shelves containing thousands of scrolls, tomes, and tablets. The room is illuminated by glowing crystals that cast a gentle blue light perfect for reading.For centuries, kobold scribes preserve true history, Skirsnik explains proudly. When humans begin to forget or change stories, we keep original versions safe.He brings you to a large table where an elderly female kobold with spectacles examines an ancient scroll. She looks up sharply at your approach.A human? she asks, surprised. Here in the Sacred Archives?Potential ally, Scrollkeeper, Skirsnik explains. They need to understand about Heartstone and Shadow Sovereign.",
+      "choices": [
+        {
+          "text": "Ask about the Shadow Sovereign",
+          "nextBranch": " shadowLore"
+        },
+        {
+          "text": "Request information about the true purpose of the Heartstone",
+          "nextBranch": " heartstoneTruth"
+        }
+      ]
+    },
+    "shadowLore": {
+      "title": "The Ancient Enemy",
+      "description": "The Scrollkeeper retrieves an ominous black tome bound in what appears to be shadow-infused leather. When opened, the pages reveal illustrations that seem to move subtly, depicting a cosmic entity of pure darkness.Before humans walked upright, Shadow Sovereign came from between stars, she explains gravely. It fed on magic itself, corrupting all it touched. Many races united to fight it—elves, dwarves, dragons, even primordial giants. Most perished.She turns pages showing devastating battles. Five Great Guardian Dragons created final solution—a prison realm connected to ours by single point. They sacrificed much power to seal enemy away, with Kaelindrath volunteering to remain as eternal guardian.The final illustration shows a magnificent blue dragon coiled protectively around a glowing red crystal—the Heartstone—which anchors chains of magical energy that vanish into a swirling vortex.",
+      "choices": [
+        {
+          "text": "Ask what happens if the seal breaks completely",
+          "nextBranch": " sealFailure"
+        },
+        {
+          "text": "Ask how you can help strengthen the seal",
+          "nextBranch": " sealReinforcement"
+        }
+      ]
+    },
+    "heartstoneTruth": {
+      "title": "Crystal of Sacrifice",
+      "description": "The Scrollkeeper brings forth a crystal case containing a miniature replica of the Heartstone. It pulses with inner light that synchronizes with your heartbeat.Heartstone not merely magical artifact, she explains. It is piece of Great Mother's actual heart, crystallized willingly. The sacrifice created permanent bond between guardian and seal.She shows you ancient diagrams of the magical construct. Heartstone serves three purposes: it extends Kaelindrath's life indefinitely, it amplifies her power, and it channels that power to maintain the seal on Shadow Sovereign's prison.Skirsnik adds solemnly, When cult stole fake stone from palace, they also poisoned Great Mother slowly through water channels. With each passing day, she weakens. If they remove true Heartstone from sanctum while she lives, both she and seal will fail catastrophically.",
+      "choices": [
+        {
+          "text": "Ask how to reach Kaelindrath quickly",
+          "nextBranch": " pathToSanctum"
+        },
+        {
+          "text": "Ask if there's a way to heal the dragon",
+          "nextBranch": " dragonHealing"
+        }
+      ]
+    },
+    "branchB2": {
+      "title": "The Silent Watch",
+      "description": "Avoiding the kobolds, you find a parallel passage that winds deeper into the dungeon. The runes here are damaged or completely destroyed in places, leaving sections in darkness.The air grows increasingly warm and carries a faint sulfurous scent—dragon's breath. After navigating several junctions, you encounter an imposing sight: a stone golem blocking the pathway, standing motionless like a statue.Ten feet tall and carved from black marble, the golem bears the royal crest of ancient Aldurath on its chest. Its eye sockets are empty, suggesting it's currently dormant—yet as you approach, a faint glow begins to emanate from within those hollow eyes.A grinding voice emerges from its immobile mouth: Identify yourself, traveler. By what right do you seek passage to the sacred chambers?",
+      "choices": [
+        {
+          "text": "Claim to be on a mission from the Queen",
+          "nextBranch": " royalClaim"
+        },
+        {
+          "text": "Try to sneak around while it's still partially dormant",
+          "nextBranch": " golemEvasion"
+        },
+        {
+          "text": "Examine the golem for weaknesses or control mechanisms",
+          "nextBranch": " golemInspection"
+        }
+      ]
+    },
+    "royalClaim": {
+      "title": "Ancient Protocols",
+      "description": "I come on behalf of Queen Lysandra of Aldurath, you declare confidently. The kingdom faces grave danger, and I must reach the sanctum.The golem's eyes flare brighter. Royal authorization requires verification. Present the Seal of Aldurath or speak the passphrase established by the Covenant of Guardianship.You have neither seal nor passphrase. As you hesitate, the golem takes a thunderous step forward, stone grinding against stone.Unauthorized access detected. Security protocols activated. Its massive fists begin to glow with arcane energy. You have one final opportunity to provide verification before defensive measures commence.The situation looks dire—until you notice a small symbol etched near its left knee joint, partially hidden by centuries of accumulated dust. It resembles the royal crest but with subtle differences.",
+      "choices": [
+        {
+          "text": "Try to recall any historical passphrase from stories about the Keep",
+          "nextBranch": " historicalKnowledge"
+        },
+        {
+          "text": "Point out the unusual symbol and claim knowledge of its significance",
+          "nextBranch": " symbolicInsight"
+        },
+        {
+          "text": "Prepare to defend yourself against the golem's attack",
+          "nextBranch": " golemCombat"
+        }
+      ]
+    },
+    "branchB2-2": {
+      "title": "The Golem's Challenge",
+      "description": "The golem doesn't attack but instead raises its hand. The floor beneath you illuminates, revealing an intricate magical circuit. In the center appears a projection showing three objects: a sword, a shield, and a crown.The way is barred by ancient compact, the golem intones. Answer this riddle to prove worthy understanding:'I protect a kingdom but am not its crown. I defend the truth but never strike it down. I am the guardian's purpose made manifest. Of these three symbols, which serves the realm best?'The projection waits for you to select one of the three symbols. Choose wisely—the wrong answer could ctivate the golem's combat protocols.",
+      "choices": [
+        { "text": "Select the sword", "nextBranch": " chooseAggression" },
+        { "text": "Select the shield", "nextBranch": " chooseProtection" },
+        { "text": "Select the crown", "nextBranch": " chooseAuthority" }
+      ]
+    },
+    "chooseProtection": {
+      "title": "Wisdom Recognized",
+      "description": "You point to the shield. The projection glows bright blue, and the golem steps aside.The shield protects without causing harm—just as the Guardian's true purpose has always been protection, not domination, it confirms. You understand the essence of the covenant between dragon and realm.The golem gestures toward the now-open passage. Proceed to the Chamber of Reflection. There you will find what you seek—if your heart remains true to the shield's purpose.As you move past, it adds one final warning: Beware—others have come before you today, but they chose the sword and the crown. They were granted passage according to ancient law, but their intentions do not serve the Guardian's oath.",
+      "choices": [
+        {
+          "text": "Thank the golem and continue forward",
+          "nextBranch": " chamberOfReflection"
+        },
+        {
+          "text": "Ask the golem about these other visitors",
+          "nextBranch": " golemIntelligence"
+        }
+      ]
+    },
+    "chooseAggression": {
+      "title": "Martial Intent",
+      "description": "You select the sword. The projection turns amber—not the failure you expected, but not full acceptance either.The sword has its place in the defense of truth, the golem acknowledges, but violence alone cannot sustain what must be protected.It steps aside partially, creating a narrow path. You may pass to the warrior's route. It leads to the Sanctum, but through trials of combat. Your choice reveals your nature—you see problems as battles to be won rather than treasures to be preserved.The passage beyond looks darker and bears scorch marks from previous encounters. This won't be an easy path.",
+      "choices": [
+        {
+          "text": "Accept the warrior's route and prepare for combat",
+          "nextBranch": " warriorPath"
+        },
+        {
+          "text": "Ask if there's another way you can prove your intentions",
+          "nextBranch": " secondChance"
+        }
+      ]
+    },
+    "chooseAuthority": {
+      "title": "The Path of Command",
+      "description": "You select the crown. The projection turns a cautious amber color.Authority carries responsibility, the golem intones, but a crown without compassion becomes merely weight upon the brow.It steps aside partially. You may pass along the sovereign's path. It leads to the Sanctum through chambers of decision where rulers of old were tested. Your choice suggests you value order and control—qualities that can protect or oppress, depending on how they're wielded.The revealed passage is elegant but filled with complex mechanical mechanisms—puzzles and moral challenges designed to test worthy rulers.",
+      "choices": [
+        {
+          "text": "Take the sovereign's path and face the tests of leadership",
+          "nextBranch": " sovereignPath"
+        },
+        {
+          "text": "Reconsider your choice and ask to select again",
+          "nextBranch": " riddle"
+        }
+      ]
+    },
+    "branchC": {
+      "title": "Descending Depths",
+      "description": "The central staircase spirals downward, each step carved with royal insignia from an ancient dynasty. Torches ignite automatically as you descend, revealing elaborate murals depicting the founding of Aldurath.One scene shows a majestic blue dragon—Kaelindrath—bestowing a glowing crystal upon the first king. Another depicts the same dragon battling a creature of living shadow, with humans fighting alongside her. The history painted here contradicts the common tales of dragon tyranny.The air grows increasingly warm as you continue downward. After descending hundreds of steps, you reach a vast underground cavern with a subterranean lake of steaming water. The ceiling glitters with luminescent crystals that create the illusion of a starry night sky.At the cavern's far end stand two imposing features: a massive iron door engraved with draconic symbols, and a smaller side passage partially concealed by stalactites.",
+      "choices": [
+        { "text": "Approach the massive iron door", "nextBranch": " branchC1" },
+        {
+          "text": "Investigate the hidden side passage",
+          "nextBranch": " branchC2"
+        },
+        {
+          "text": "Examine the underground lake more closely",
+          "nextBranch": " mysterLake"
+        }
+      ]
+    },
+    "mysterLake": {
+      "title": "Waters of Memory",
+      "description": "You approach the steaming lake cautiously. Its waters are crystal clear despite the heat, allowing you to see mysterious ruins submerged below—what appears to be an ancient temple now claimed by the underground waters.As you kneel at the lake's edge, your reflection shifts and changes. For a moment, you see not yourself but scenes from the past—dragon riders soaring above these caverns, ritual ceremonies performed around a central altar, and finally, a terrible battle against shadow creatures.A soft voice seems to whisper from the water itself: Remember what was forgotten. See what has been hidden.Entranced, you reach toward the water—and a small object breaks the surface, floating up to your hand: a scale-shaped amulet of brilliant blue, still warm to the touch.",
+      "choices": [
+        {
+          "text": "Take the amulet and approach the iron door",
+          "nextBranch": " amuletPower"
+        },
+        {
+          "text": "Take the amulet and try the side passage",
+          "nextBranch": " amuletGuidance"
+        },
+        {
+          "text": "Cast the amulet back into the water, suspicious of its origins",
+          "nextBranch": " rejectAmulet"
+        }
+      ]
+    },
+    "amuletPower": {
+      "title": "Dragon's Blessing",
+      "description": "The moment you place the amulet around your neck, a wave of awareness washes over you. Knowledge not your own floods your mind—fragments of dragon memory spanning centuries.You see the Keep as it once was: a sacred site where dragons and humans worked together, not a prison but a seal against cosmic horror. You understand now that Kaelindrath voluntarily remained as guardian, sacrificing freedom to protect the world.The amulet—a Scale-Stone—grows warm against your chest as you approach the iron door. The draconic symbols that were incomprehensible before now translate themselves in your mind: Let those who remember the covenant pass freely into the Chamber of Guardianship.As if responding to your new understanding, the massive iron door begins to unlock itself, ancient mechanisms turning with surprising smoothness.",
+      "choices": [
+        {
+          "text": "Enter the now-opened door with new confidence",
+          "nextBranch": " blessedEntrance"
+        },
+        {
+          "text": "Use your new knowledge to look for hidden dangers first",
+          "nextBranch": " dragonInsight"
+        }
+      ]
+    },
+    "branchC1": {
+      "title": "The Iron Door",
+      "description": "You stand before an immense iron door that must have taken dozens of craftsmen years to create. Draconic script flows across its surface in mesmerizing patterns, occasionally shifting position as if alive. The metal radiates heat, making it uncomfortable to touch directly.In the center of the door is a circular indentation about the size of your palm, surrounded by what appears to be a complex locking mechanism. Five metal rings encircle the indentation, each engraved with different symbols representing elements: fire, water, earth, air, and spirit.A worn plaque beneath the lock bears writing in the common tongue: The Guardian's Heart opens the way, but elements in harmony prepare the path.",
+      "choices": [
+        { "text": "Try to force the door open", "nextBranch": " branchC1-2" },
+        {
+          "text": "Look for the key or activation mechanism",
+          "nextBranch": " branchC1-3"
+        },
+        {
+          "text": "Examine the elemental rings more carefully",
+          "nextBranch": " elementalPuzzle"
+        }
+      ]
+    },
+    "elementalPuzzle": {
+      "title": "Balance of Powers",
+      "description": "You study the five elemental rings surrounding the central indentation. Each can be rotated independently, changing the alignment of the symbols engraved upon them.A pattern emerges as you examine the door more carefully—faint lines connect certain elemental symbols in a specific configuration. The dragon mural on the wall beside the door offers a clue: Kaelindrath is depicted with elemental forces swirling around her in balance, with fire opposite water, earth opposite air, and spirit at the apex.This isn't just a lock—it's a test of understanding. The elements must be arranged in their proper relationship to one another, mimicking the natural balance that dragons were said to maintain in the ancient world.",
+      "choices": [
+        {
+          "text": "Arrange the rings according to the mural's pattern",
+          "nextBranch": " correctAlignment"
+        },
+        {
+          "text": "Experiment with different elemental combinations",
+          "nextBranch": " elementalExperimentation"
+        },
+        {
+          "text": "Look for additional clues in the cavern",
+          "nextBranch": " seekMoreClues"
+        }
+      ]
+    },
+    "correctAlignment": {
+      "title": "Harmony Established",
+      "description": "Following the pattern shown in the mural, you carefully rotate each ring until the elements align in perfect balance: fire opposite water, earth opposite air, with spirit connecting them all from above.As the final ring clicks into place, the elemental symbols begin to glow with their respective energies—red for fire, blue for water, brown for earth, white for air, and purple for spirit. The glow intensifies, flowing along the channels connecting the symbols.The door vibrates subtly as the energies converge at the central indentation, creating a swirling vortex of elemental magic. The indentation itself transforms, now appearing deeper and more defined—clearly meant to receive a key of some kind, perhaps the Guardian's Heart mentioned on the plaque.",
+      "choices": [
+        {
+          "text": "Search nearby for something that might serve as the key",
+          "nextBranch": " keySearch"
+        },
+        {
+          "text": "Place your hand directly into the energized indentation",
+          "nextBranch": " directContact"
+        },
+        {
+          "text": "Examine the lock more carefully now that it's activated",
+          "nextBranch": " activatedLock"
+        }
+      ]
+    },
+    "branchC1-2": {
+      "title": "Breaking Through",
+      "description": "You brace yourself and push against the massive door with all your strength. The metal is unyielding and burning hot—scorching your hands as you strain against it. Suddenly, a deep rumbling emanates from beyond the door. Your effort has not opened the passage but has alerted something to your presence. The draconic symbols on the door flare with crimson light, and steam begins to pour from the seams.The entire cavern trembles as an earth-shaking roar reverberates through the stone. A voice like thunder speaks directly into your mind: WHO DISTURBS MY SLUMBER WITH SUCH DISRESPECT?The psychic force of the question brings you to your knees. This is no mere magical trap—you've gained the direct attention of Kaelindrath herself, and she does not seem pleased.",
+      "type": "NO_BOSS"
+    },
+    "branchC1-3": {
+      "title": "The Hidden Key",
+      "description": "You methodically search the area around the door, looking for anything that might function as a key. After examining several unremarkable rocks and crevices, you notice something unusual about one of the nearby torch sconces.Unlike the others that line the cavern walls, this particular sconce has a dragon motif wrapped around its base. When you rotate it slightly, it comes loose in your hand, revealing a hidden compartment within the wall.Inside lies a crystalline key, roughly heart-shaped and pulsing with a faint reddish light that matches the central indentation in the door. It feels warm to the touch and seems to beat in rhythm with your own heart when you hold it.As you approach the door with the key, the draconic symbols react—glowing brighter and rearranging themselves into what appears to be a welcome message.",
+      "choices": [
+        { "text": "Use the key to open the door", "nextBranch": " keypening " }
+      ]
+    },
+    "keyOpening": {
+      "title": "Threshold Crossed",
+      "description": "You place the crystal key into the door's central indentation. It fits perfectly, and the moment contact is made, the key flares with brilliant red light. The draconic symbols across the door's surface activate in sequence, flowing like rivers of molten metal from the center outward.The massive door shudders, then silently swings inward despite its enormous weight. Beyond lies a vast chamber that takes your breath away—Kaelindrath's sanctum.The key, however, remains embedded in the door, beginning to melt and merge with the metal surface. Whatever magic it contained has been fully expended in opening this ancient passage.Warm air rushes past you from the chamber beyond, carrying the scent of incense and a deeper, more primal aroma that can only be dragon.",
+      "choices": [{ "text": "Enter the lair", "nextBranch": " bosPath1 " }]
+    },
+    "branchC2": {
+      "title": "The Hidden Path",
+      "description": "The side passage proves more interesting than it first appeared. Though narrower than the main approach to the iron door, it's clearly designed for human use—perhaps for servants or attendants who needed to access the deeper chambers without disturbing important ceremonies.The walls here feature smaller, more intimate murals showing daily life in ancient Aldurath. Dragons and humans are depicted living in harmony—humans cultivating fields while dragons control weather, dragonriders serving as messengers, and what appears to be knowledge exchange between the species.The passage eventually opens onto a breathtaking sight: an underground lake of considerable size, its dark waters perfectly still and reflective like obsidian glass. A small wooden boat is tethered to the shore, its construction remarkably preserved despite its apparent age.On the distant shore, faint lights can be seen—possibly another entrance to the inner sanctum.",
+      "choices": [
+        {
+          "text": "Take the boat across the lake",
+          "nextBranch": " branchC2-2"
+        },
+        {
+          "text": "Follow the narrow path around the lake's edge",
+          "nextBranch": " branchC2-3"
+        },
+        {
+          "text": "Examine the boat and shoreline more carefully",
+          "nextBranch": " boatInspection"
+        }
+      ]
+    },
+    "boatInspection": {
+      "title": "Ancient Vessel",
+      "description": "The boat appears to be crafted from wood unlike any you've seen before—deep blue with swirling grain patterns that almost seem to move in the dim light. It bears no signs of rot despite being in this damp environment for what must be centuries.Upon closer inspection, you notice small runes carved along the gunwales—protective enchant"
+    },
+    "analyzeRitual": {
+      "title": "Fractured Spellwork",
+      "description": "Elara studies the ritual below. \"They're using Kaelindrath's blood and the Heartstone in tandem—two anchors of the prison spell. If they succeed, the Shadow Sovereign won't just escape—it'll infect her mind first.\" You watch Kiran subtly alter one rune mid-chant. He's sabotaging the ritual from within. \"If we distract Drezden, Kiran might finish disrupting the sigils,\" Elara says. A small team of kobolds signals from a side tunnel, ready to act. You have moments before the final chant begins.",
+      "choices": [
+        {
+          "text": "Signal the kobolds to create a diversion while you rescue Kiran",
+          "nextBranch": "rescueKiran"
+        },
+        {
+          "text": "Use your Scale-Stone to disrupt the spell directly",
+          "nextBranch": "stoneDisruption"
+        },
+        {
+          "text": "Leap into the ritual circle to confront Drezden",
+          "nextBranch": "finalConfrontation"
+        }
+      ]
+    },
+    "rescueKiran": {
+      "title": "Breaking the Circle",
+      "description": "The kobolds erupt into the chamber with war cries. Chaos spreads as cultists scramble. You slip through shadows, reaching Kiran. \"Now!\" he gasps, completing a counter-rune. The spell stutters. Drezden whirls, eyes glowing black. Kaelindrath's eye flickers toward you—recognition. You raise the Scale-Stone. Her breath falters... but steadies. She speaks, mind to mind: *Help me bind him.*",
+      "choices": [
+        {
+          "text": "Join Kaelindrath in a psychic battle to bind Drezden",
+          "nextBranch": "mindBattle"
+        },
+        {
+          "text": "Free the Heartstone and restore it to Kaelindrath",
+          "nextBranch": "stoneRestoration"
+        }
+      ]
+    },
+    "stoneDisruption": {
+      "title": "Light Against Shadow",
+      "description": "You hurl the Scale-Stone into the ritual circle. It explodes in radiant energy, unraveling half the sigils. Drezden shrieks as Kaelindrath rears up, briefly free of her bonds. Elara chants an incantation, stabilizing the ritual backlash. \"Now! While he's weakened!\" You see three paths: finish him, save the dragon, or grab the Heartstone and flee.",
+      "choices": [
+        { "text": "Strike Drezden down", "nextBranch": "finalBlow" },
+        {
+          "text": "Restore the Heartstone to Kaelindrath",
+          "nextBranch": "stoneRestoration"
+        },
+        {
+          "text": "Flee with the Heartstone to protect it elsewhere",
+          "nextBranch": "heartstoneEscape"
+        }
+      ]
+    },
+    "finalConfrontation": {
+      "title": "Champion's Stand",
+      "description": "You charge into the ritual circle. Drezden turns with contempt—until Kaelindrath stirs and roars. Your presence and the medallion shift the energy. He raises a corrupted staff, but it falters when you speak: \"She gave her heart to save us. You spit on her sacrifice.\" The circle implodes. Everyone is thrown back.",
+      "choices": [
+        {
+          "text": "Challenge Drezden to a duel for the fate of the realm",
+          "nextBranch": "finalDuel"
+        },
+        {
+          "text": "Use the Heartstone to imprison him instead",
+          "nextBranch": "imprisonDrezden"
+        }
+      ]
+    },
+    "mindBattle": {
+      "title": "Battle of Wills",
+      "description": "You close your eyes and reach toward Kaelindrath's presence. The Scale-Stone pulses with light as you and the dragon enter a shared psychic space—a surreal battlefield of memories and emotions. Drezden appears here too, cloaked in shadow, wielding fear and rage as weapons.\nKaelindrath speaks within: *We must bind him with truth. Show him what he denied.*\nYou wield memories as blades—visions of Aldurath's founding, of Kaelindrath's sacrifice, of Drezden's own past as a once-promising student of the Royal Archives. He falters. The shadows twist violently.\nOne final push remains—to break his will or trap him forever in this mindscape.",
+      "choices": [
+        {
+          "text": "Overwhelm him with Kaelindrath's memories of sacrifice",
+          "nextBranch": "stoneRestoration"
+        },
+        {
+          "text": "Trap him in a prison of his own fears",
+          "nextBranch": "imprisonDrezden"
+        }
+      ]
+    },
+    "finalBlow": {
+      "title": "Judgment Delivered",
+      "description": "With the ritual unraveling, you charge through the chaos toward Drezden. He raises his corrupted staff, but you strike first—your blade, empowered by the Scale-Stone, slices through the shadow magic like fire through silk.\nDrezden stumbles back, clutching his chest as the Heartstone pulses behind him. \"You could have ruled beside me,\" he gasps.\n\"You chose power. I chose the realm,\" you reply, plunging your weapon deep. His body disintegrates into shadow, then nothing.\nKaelindrath’s bindings dissolve. She rises slowly, wounds closing, strength returning. Her eyes meet yours. *Your courage ends the cycle. What will you begin?*",
+      "choices": [
+        {
+          "text": "Swear yourself as her new Scale-Bearer and protector of the seal",
+          "nextBranch": "epilogueGuardian"
+        },
+        {
+          "text": "Return to the Queen with the truth",
+          "nextBranch": "epilogueReformer"
+        },
+        {
+          "text": "Leave silently, your duty done",
+          "nextBranch": "epilogueWanderer"
+        }
+      ]
+    },
+    "heartstoneEscape": {
+      "title": "The Last Custodian",
+      "description": "You seize the Heartstone and bolt from the chamber. Elara shouts after you, but there's no time. The cultists pursue, but the power of the Heartstone shields you.\nYou escape the Keep through the collapsing tunnels, barely outrunning the blast of raw magic. Behind you, Kaelindrath roars in pain. The seal fails—but the Heartstone survives.\nIn the months that follow, you hide it away in a distant sanctuary. You become its sole protector, forever hunted by those who seek the power it holds. The world believes the dragon perished—and perhaps she did. But the greater evil remains sealed, for now.",
+      "choices": [
+        {
+          "text": "Remain in exile, guarding the Heartstone alone",
+          "nextBranch": "epilogueWanderer"
+        }
+      ]
+    },
+    "imprisonDrezden": {
+      "title": "Shadow Bound",
+      "description": "You channel the Heartstone's energy toward Drezden, reversing the ritual's flow. Tendrils of light wrap around his limbs, then pierce the shadows within him. He screams as the magic binds his soul—not in death, but in containment.\nThe ritual circle collapses into a glowing crystal cage, pulsing with the residual force of the seal. Kaelindrath's voice echoes: *He shall guard what he sought to free. A fitting sentence.*\nThe chamber falls silent. The cult is broken, their leader imprisoned in the prison he tried to break.\nThe dragon turns her gaze to you. *What path do you choose now, Scale-Bearer?*",
+      "choices": [
+        {
+          "text": "Swear yourself as her new Scale-Bearer and protector of the seal",
+          "nextBranch": "epilogueGuardian"
+        },
+        {
+          "text": "Return to the Queen with the truth",
+          "nextBranch": "epilogueReformer"
+        }
+      ]
+    },
+    "stoneRestoration": {
+      "title": "Bond Renewed",
+      "description": "You press the Heartstone to Kaelindrath's chest. Her scales flare with light, her body mending as power returns. The remaining cultists flee or fall to their knees. Drezden screams as his tether to shadow snaps. He is dragged into the collapsing ritual void. Kaelindrath rises, wings outstretched. Her voice echoes: *The balance is held—for now. But the world must remember.*",
+      "choices": [
+        {
+          "text": "Swear yourself as her new Scale-Bearer and protector of the seal",
+          "nextBranch": "epilogueGuardian"
+        },
+        {
+          "text": "Return to the Queen with the truth",
+          "nextBranch": "epilogueReformer"
+        },
+        {
+          "text": "Leave silently, your duty done",
+          "nextBranch": "epilogueWanderer"
+        }
+      ]
+    },
+    "epilogueGuardian": {
+      "title": "The Dragon's Oath",
+      "description": "You remain at Kaelindrath's side, helping restore the Keep and its guardians. Kobolds, historians, and mages return to rebuild. You become the first new Scale-Bearer in centuries—part diplomat, part warden, part legend."
+    },
+    "epilogueReformer": {
+      "title": "Crown and Clarity",
+      "description": "You return to Aldurath with Elara and the truth. The Queen, shaken but resolute, dismisses her corrupted court and publicly honors Kaelindrath. You oversee reforms that restore the alliance between dragon and realm."
+    },
+    "epilogueWanderer": {
+      "title": "Legacy in Shadows",
+      "description": "You vanish into myth, known only by those you saved. Songs tell of the nameless hero who saved Aldurath not with force, but with truth. In the sanctum, Kaelindrath watches the stars again—free, thanks to you."
+    }
+  }
+}
