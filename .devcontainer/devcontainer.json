@@ -1,0 +1,39 @@
+{
+  "name": "React Vite + TypeScript Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": {
+      "VARIANT": "18-bullseye",
+      "INSTALL_NODE_MODULES": "true"
+    }
+  },
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "dsznajder.es7-react-js-snippets",
+        "wallabyjs.console-ninja",
+        "vscode-icons-team.vscode-icons",
+        "formulahendry.console-ninja",
+        "ms-azuretools.vscode-docker",
+        "eamodio.gitlens",
+        "github.copilot",
+        "github.copilot-chat",
+        "christian-kohler.path-intellisense"
+      ]
+    }
+  },
+  "forwardPorts": [
+    5173
+  ],
+  "portsAttributes": {
+    "5173": {
+      "label": "React app"
+    }
+  },
+  "mounts": [],
+  "postCreateCommand": "sh .devcontainer/setup.sh"
+}

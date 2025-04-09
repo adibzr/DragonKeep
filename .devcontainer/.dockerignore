@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+.yarn
+
+# Distribution / build output
+dist/
+build/
+out/
+tmp/
+temp/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE related
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+ehthumbs.db
+desktop.ini
+
+# Git
+.git/
+
+# Docker related
+Dockerfile
+.dockerignore
+
+# Compiled files that will be re-generated in the container
+*.js
+*.map
+*.d.ts
