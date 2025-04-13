@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Choice from "./component/Choice";
 import Screen from "./component/Screen";
@@ -15,7 +15,7 @@ function App() {
   });
 
   useEffect(() => {
-    fetch("/data/story.json")
+    fetch("/data/story2.json")
       .then((response) => response.json())
       .then((data) => {
         setStoryData(data);
@@ -30,8 +30,9 @@ function App() {
   const handleChoice = (nextBranch: string) => {
     if (storyData) {
       const nextChoices = storyData.branches[nextBranch];
+      console.log(nextBranch);
+      console.log(storyData.branches["branchA1"]);
       if (nextChoices) {
-        console.log(nextChoices.description);
         setChoices({
           choices: nextChoices.choices || [],
           description: nextChoices.description,

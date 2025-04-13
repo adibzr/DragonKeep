@@ -28,12 +28,12 @@
       "choices": [
         {
           "text": "Help the knight and ask about the thief",
-          "nextBranch": " branchA1"
+          "nextBranch": "branchA1"
         },
-        { "text": "Ask about the dragon", "nextBranch": " branchA1a" },
+        { "text": "Ask about the dragon", "nextBranch": "branchA1a" },
         {
           "text": "Ignore the knight and continue alone",
-          "nextBranch": " branchA2"
+          "nextBranch": "branchA2"
         }
       ]
     },
@@ -43,11 +43,11 @@
       "choices": [
         {
           "text": "Ask for his guidance to reach the dragon",
-          "nextBranch": " branchA1"
+          "nextBranch": "branchA1"
         },
         {
           "text": "Ask who would want to release an ancient evil",
-          "nextBranch": " branchA1b"
+          "nextBranch": "branchA1b"
         }
       ]
     },
@@ -57,11 +57,11 @@
       "choices": [
         {
           "text": "Thank him and ask how to reach the dragon safely",
-          "nextBranch": " branchA1"
+          "nextBranch": "branchA1"
         },
         {
           "text": "Continue your journey with this new information",
-          "nextBranch": " branchA2"
+          "nextBranch": "branchA2"
         }
       ]
     },
@@ -71,11 +71,11 @@
       "choices": [
         {
           "text": "Follow his advice to the sacred chamber",
-          "nextBranch": " sacredPath"
+          "nextBranch": "sacredPath"
         },
         {
           "text": "Ask about other routes or potential allies in the dungeon",
-          "nextBranch": " branchA1-2"
+          "nextBranch": "branchA1-2"
         }
       ]
     },
@@ -85,11 +85,11 @@
       "choices": [
         {
           "text": "Seek out the treasury and the archaeologist",
-          "nextBranch": " treasuryPath"
+          "nextBranch": "treasuryPath"
         },
         {
           "text": "Bid the knight farewell and continue to the sacred chamber",
-          "nextBranch": " sacredPath"
+          "nextBranch": "sacredPath"
         }
       ]
     },
@@ -99,7 +99,7 @@
       "choices": [
         {
           "text": "Ask about the Heartstone and its true purpose",
-          "nextBranch": " treasuryPath1"
+          "nextBranch": "treasuryPath1"
         },
         {
           "text": "Ask about the thief and what they might be planning",
@@ -149,7 +149,7 @@
         },
         {
           "text": "Ask if there's a way to warn the dragon",
-          "nextBranch": " warnDragon"
+          "nextBranch": "warnDragon"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "choices": [
         {
           "text": "Show the Scale-Stone and call out peacefully to the kobolds",
-          "nextBranch": " koboldAllies"
+          "nextBranch": "koboldAllies"
         },
         {
           "text": "Ask Elara to lead you directly to the sanctum instead",
@@ -173,11 +173,11 @@
       "choices": [
         {
           "text": "Follow the kobolds through their secret passages",
-          "nextBranch": " koboldPath"
+          "nextBranch": "koboldPath"
         },
         {
           "text": "Ask them to warn Kaelindrath while you and Elara take the main route",
-          "nextBranch": " splitPaths"
+          "nextBranch": "splitPaths"
         }
       ]
     },
@@ -187,11 +187,11 @@
       "choices": [
         {
           "text": "Ask about these traitor kobolds",
-          "nextBranch": " traitorInfo"
+          "nextBranch": "traitorInfo"
         },
         {
           "text": "Ask how much farther to the Sacred Chamber",
-          "nextBranch": " approachSanctum"
+          "nextBranch": "approachSanctum"
         }
       ]
     },
@@ -201,11 +201,11 @@
       "choices": [
         {
           "text": "Drink the potion and continue stealthily",
-          "nextBranch": " stealthApproach"
+          "nextBranch": "stealthApproach"
         },
         {
           "text": "Suggest confronting the traitors directly",
-          "nextBranch": " confrontationPlan"
+          "nextBranch": "confrontationPlan"
         }
       ]
     },
@@ -215,11 +215,11 @@
       "choices": [
         {
           "text": "Follow Elara through the main passageways",
-          "nextBranch": " mainApproach"
+          "nextBranch": "mainApproach"
         },
         {
           "text": "Ask Elara if there's a less direct but safer route",
-          "nextBranch": " alternateApproach"
+          "nextBranch": "alternateApproach"
         }
       ]
     },
@@ -229,11 +229,11 @@
       "choices": [
         {
           "text": "Use the ventilation shaft to reach the balcony",
-          "nextBranch": " observationPoint"
+          "nextBranch": "observationPoint"
         },
         {
           "text": "Prepare to fight through the guards directly",
-          "nextBranch": " directAssault"
+          "nextBranch": "directAssault"
         }
       ]
     },
@@ -243,11 +243,11 @@
       "choices": [
         {
           "text": "Let Skirsnik attempt to reason with them first",
-          "nextBranch": " koboldParley"
+          "nextBranch": "koboldParley"
         },
         {
           "text": "Prepare for immediate combat when they arrive",
-          "nextBranch": " koboldSkirmish"
+          "nextBranch": "koboldSkirmish"
         }
       ]
     },
@@ -257,11 +257,11 @@
       "choices": [
         {
           "text": "Show the Scale-Stone and appeal to their traditional loyalty",
-          "nextBranch": " rekindleLoyalty"
+          "nextBranch": "rekindleLoyalty"
         },
         {
           "text": "Challenge Darktongue directly to prove his claims",
-          "nextBranch": " shamanChallenge"
+          "nextBranch": "shamanChallenge"
         }
       ]
     },
@@ -271,11 +271,11 @@
       "choices": [
         {
           "text": "Fight through to reach Darktongue and destroy the staff",
-          "nextBranch": " destroyArtifact"
+          "nextBranch": "destroyArtifact"
         },
         {
           "text": "Use the Scale-Stone to try to disrupt the staff's magic",
-          "nextBranch": " counterMagic"
+          "nextBranch": "counterMagic"
         }
       ]
     },
@@ -285,11 +285,11 @@
       "choices": [
         {
           "text": "Move quietly toward the source of the chanting",
-          "nextBranch": " approachRitual"
+          "nextBranch": "approachRitual"
         },
         {
           "text": "Search the fallen guards for useful items or information",
-          "nextBranch": " searchGuards"
+          "nextBranch": "searchGuards"
         }
       ]
     },
@@ -299,11 +299,11 @@
       "choices": [
         {
           "text": "Hide and observe who approaches",
-          "nextBranch": " hideObserve"
+          "nextBranch": "hideObserve"
         },
         {
           "text": "Take the secret royal passage Elara mentioned",
-          "nextBranch": " secretPassage"
+          "nextBranch": "secretPassage"
         }
       ]
     },
@@ -313,11 +313,11 @@
       "choices": [
         {
           "text": "Proceed cautiously to the observation chamber",
-          "nextBranch": " observationPoint"
+          "nextBranch": "observationPoint"
         },
         {
           "text": "Ask Elara more about Kaelindrath while moving forward",
-          "nextBranch": " dragonLore"
+          "nextBranch": "dragonLore"
         }
       ]
     },
@@ -327,11 +327,11 @@
       "choices": [
         {
           "text": "Create a distraction and try to slip away",
-          "nextBranch": " createDistraction"
+          "nextBranch": "createDistraction"
         },
         {
           "text": "Prepare to silently neutralize the approaching cultist",
-          "nextBranch": " silentTakedown"
+          "nextBranch": "silentTakedown"
         }
       ]
     },
@@ -341,15 +341,15 @@
       "choices": [
         {
           "text": "Analyze the ritual for weaknesses before acting",
-          "nextBranch": " analyzeRitual"
+          "nextBranch": "analyzeRitual"
         },
         {
           "text": "Signal the kobolds for a coordinated attack",
-          "nextBranch": " coordinateAttack"
+          "nextBranch": "coordinateAttack"
         },
         {
           "text": "Try to communicate with the weakened dragon",
-          "nextBranch": " contactDragon"
+          "nextBranch": "contactDragon"
         }
       ]
     },
@@ -359,11 +359,11 @@
       "choices": [
         {
           "text": "Ask if the Queen knows the true history",
-          "nextBranch": " royalKnowledge"
+          "nextBranch": "royalKnowledge"
         },
         {
           "text": "Hurry forward to the observation chamber",
-          "nextBranch": " observationPoint"
+          "nextBranch": "observationPoint"
         }
       ]
     },
@@ -373,11 +373,11 @@
       "choices": [
         {
           "text": "Observe the sanctum carefully",
-          "nextBranch": " observationPoint"
+          "nextBranch": "observationPoint"
         },
         {
           "text": "Check the antechamber for useful artifacts or weapons",
-          "nextBranch": " ancientWeaponry"
+          "nextBranch": "ancientWeaponry"
         }
       ]
     },
@@ -387,11 +387,11 @@
       "choices": [
         {
           "text": "Take the path marked with a dragon symbol",
-          "nextBranch": " dragonServants"
+          "nextBranch": "dragonServants"
         },
         {
           "text": "Follow the path with royal insignia",
-          "nextBranch": " royalQuarters"
+          "nextBranch": "royalQuarters"
         }
       ]
     },
@@ -401,11 +401,11 @@
       "choices": [
         {
           "text": "Ask for their help reaching the sanctum safely",
-          "nextBranch": " faithfulAllies"
+          "nextBranch": "faithfulAllies"
         },
         {
           "text": "Ask what they know about the current situation",
-          "nextBranch": " servantIntel"
+          "nextBranch": "servantIntel"
         }
       ]
     },
@@ -415,11 +415,11 @@
       "choices": [
         {
           "text": "Enter with weapon ready but medallion visible",
-          "nextBranch": " sanctumEntrance"
+          "nextBranch": "sanctumEntrance"
         },
         {
           "text": "Listen carefully before proceeding",
-          "nextBranch": " sanctumScouting"
+          "nextBranch": "sanctumScouting"
         }
       ]
     },
@@ -430,17 +430,17 @@
         {
           "text": "Choose the door with dragon carving",
 
-          "nextBranch": " dragonPath"
+          "nextBranch": "dragonPath"
         },
         {
           "text": "Choose the door with skull carving",
 
-          "nextBranch": " branchA2-2"
+          "nextBranch": "branchA2-2"
         },
         {
           "text": "Search the chamber more thoroughly before deciding",
 
-          "nextBranch": " chamberSearch"
+          "nextBranch": "chamberSearch"
         }
       ]
     },
@@ -451,12 +451,12 @@
         {
           "text": "Take the Dragon's Breath potion and use the dragon door",
 
-          "nextBranch": " dragonPath"
+          "nextBranch": "dragonPath"
         },
         {
           "text": "Take the potion and try the skull door's alternate route",
 
-          "nextBranch": " skullAlternate"
+          "nextBranch": "skullAlternate"
         }
       ]
     },
@@ -467,17 +467,17 @@
         {
           "text": "Take the Sanctum Approach",
 
-          "nextBranch": " sanctumBackdoor"
+          "nextBranch": "sanctumBackdoor"
         },
         {
           "text": "Investigate the Guard Quarters",
 
-          "nextBranch": " ancientGuards"
+          "nextBranch": "ancientGuards"
         },
         {
           "text": "Check the Feeding Chambers",
 
-          "nextBranch": " feedingArea"
+          "nextBranch": "feedingArea"
         }
       ]
     },
@@ -488,12 +488,12 @@
         {
           "text": "Drink the Dragon's Breath potion and plan an intervention",
 
-          "nextBranch": " potionPower"
+          "nextBranch": "potionPower"
         },
         {
           "text": "Look for other potential allies or advantages from your viewpoint",
 
-          "nextBranch": " sanctumSurvey"
+          "nextBranch": "sanctumSurvey"
         }
       ]
     },
@@ -504,17 +504,17 @@
         {
           "text": "Wait for them to pass, then continue toward the sanctum",
 
-          "nextBranch": " patrolEvade"
+          "nextBranch": "patrolEvade"
         },
         {
           "text": "Follow the Inquisitor at a safe distance",
 
-          "nextBranch": " followInquisitor"
+          "nextBranch": "followInquisitor"
         },
         {
           "text": "Drink the Dragon's Breath potion and confront them",
 
-          "nextBranch": " cultistConfrontation"
+          "nextBranch": "cultistConfrontation"
         }
       ]
     },
@@ -529,15 +529,15 @@
       "choices": [
         {
           "text": "Approach peacefully with hands visible",
-          "nextBranch": " branchB1"
+          "nextBranch": "branchB1"
         },
         {
           "text": "Observe them longer to learn more",
-          "nextBranch": " koboldObservation"
+          "nextBranch": "koboldObservation"
         },
         {
           "text": "Find a way around without encountering them",
-          "nextBranch": " branchB2"
+          "nextBranch": "branchB2"
         }
       ]
     },
@@ -547,15 +547,15 @@
       "choices": [
         {
           "text": "Reveal yourself and offer help",
-          "nextBranch": " koboldAlliance"
+          "nextBranch": "koboldAlliance"
         },
         {
           "text": "Follow them when they finish their work",
-          "nextBranch": " trailKobolds"
+          "nextBranch": "trailKobolds"
         },
         {
           "text": "Find another path to avoid interfering",
-          "nextBranch": " branchB2"
+          "nextBranch": "branchB2"
         }
       ]
     },
@@ -565,15 +565,15 @@
       "choices": [
         {
           "text": "Explain everything the Queen told you about the mission",
-          "nextBranch": " truthfulMission"
+          "nextBranch": "truthfulMission"
         },
         {
           "text": "Ask about the prophecy they mentioned",
-          "nextBranch": " prophecyQuestions"
+          "nextBranch": "prophecyQuestions"
         },
         {
           "text": "Show them you mean no harm to their 'Great Mother'",
-          "nextBranch": " peacefulIntent"
+          "nextBranch": "peacefulIntent"
         }
       ]
     },
@@ -583,11 +583,11 @@
       "choices": [
         {
           "text": "Follow them to the hidden library",
-          "nextBranch": " hiddenLibrary"
+          "nextBranch": "hiddenLibrary"
         },
         {
           "text": "Ask who's behind this deception",
-          "nextBranch": " cultLeadership"
+          "nextBranch": "cultLeadership"
         }
       ]
     },
@@ -597,11 +597,11 @@
       "choices": [
         {
           "text": "Ask about the Shadow Sovereign",
-          "nextBranch": " shadowLore"
+          "nextBranch": "shadowLore"
         },
         {
           "text": "Request information about the true purpose of the Heartstone",
-          "nextBranch": " heartstoneTruth"
+          "nextBranch": "heartstoneTruth"
         }
       ]
     },
@@ -611,11 +611,11 @@
       "choices": [
         {
           "text": "Ask what happens if the seal breaks completely",
-          "nextBranch": " sealFailure"
+          "nextBranch": "sealFailure"
         },
         {
           "text": "Ask how you can help strengthen the seal",
-          "nextBranch": " sealReinforcement"
+          "nextBranch": "sealReinforcement"
         }
       ]
     },
@@ -625,11 +625,11 @@
       "choices": [
         {
           "text": "Ask how to reach Kaelindrath quickly",
-          "nextBranch": " pathToSanctum"
+          "nextBranch": "pathToSanctum"
         },
         {
           "text": "Ask if there's a way to heal the dragon",
-          "nextBranch": " dragonHealing"
+          "nextBranch": "dragonHealing"
         }
       ]
     },
@@ -639,15 +639,15 @@
       "choices": [
         {
           "text": "Claim to be on a mission from the Queen",
-          "nextBranch": " royalClaim"
+          "nextBranch": "royalClaim"
         },
         {
           "text": "Try to sneak around while it's still partially dormant",
-          "nextBranch": " golemEvasion"
+          "nextBranch": "golemEvasion"
         },
         {
           "text": "Examine the golem for weaknesses or control mechanisms",
-          "nextBranch": " golemInspection"
+          "nextBranch": "golemInspection"
         }
       ]
     },
@@ -657,15 +657,15 @@
       "choices": [
         {
           "text": "Try to recall any historical passphrase from stories about the Keep",
-          "nextBranch": " historicalKnowledge"
+          "nextBranch": "historicalKnowledge"
         },
         {
           "text": "Point out the unusual symbol and claim knowledge of its significance",
-          "nextBranch": " symbolicInsight"
+          "nextBranch": "symbolicInsight"
         },
         {
           "text": "Prepare to defend yourself against the golem's attack",
-          "nextBranch": " golemCombat"
+          "nextBranch": "golemCombat"
         }
       ]
     },
@@ -673,9 +673,9 @@
       "title": "The Golem's Challenge",
       "description": "The golem doesn't attack but instead raises its hand. The floor beneath you illuminates, revealing an intricate magical circuit. In the center appears a projection showing three objects: a sword, a shield, and a crown.The way is barred by ancient compact, the golem intones. Answer this riddle to prove worthy understanding:'I protect a kingdom but am not its crown. I defend the truth but never strike it down. I am the guardian's purpose made manifest. Of these three symbols, which serves the realm best?'The projection waits for you to select one of the three symbols. Choose wisely—the wrong answer could ctivate the golem's combat protocols.",
       "choices": [
-        { "text": "Select the sword", "nextBranch": " chooseAggression" },
-        { "text": "Select the shield", "nextBranch": " chooseProtection" },
-        { "text": "Select the crown", "nextBranch": " chooseAuthority" }
+        { "text": "Select the sword", "nextBranch": "chooseAggression" },
+        { "text": "Select the shield", "nextBranch": "chooseProtection" },
+        { "text": "Select the crown", "nextBranch": "chooseAuthority" }
       ]
     },
     "chooseProtection": {
@@ -684,11 +684,11 @@
       "choices": [
         {
           "text": "Thank the golem and continue forward",
-          "nextBranch": " chamberOfReflection"
+          "nextBranch": "chamberOfReflection"
         },
         {
           "text": "Ask the golem about these other visitors",
-          "nextBranch": " golemIntelligence"
+          "nextBranch": "golemIntelligence"
         }
       ]
     },
@@ -698,11 +698,11 @@
       "choices": [
         {
           "text": "Accept the warrior's route and prepare for combat",
-          "nextBranch": " warriorPath"
+          "nextBranch": "warriorPath"
         },
         {
           "text": "Ask if there's another way you can prove your intentions",
-          "nextBranch": " secondChance"
+          "nextBranch": "secondChance"
         }
       ]
     },
@@ -712,11 +712,11 @@
       "choices": [
         {
           "text": "Take the sovereign's path and face the tests of leadership",
-          "nextBranch": " sovereignPath"
+          "nextBranch": "sovereignPath"
         },
         {
           "text": "Reconsider your choice and ask to select again",
-          "nextBranch": " riddle"
+          "nextBranch": "riddle"
         }
       ]
     },
@@ -724,14 +724,14 @@
       "title": "Descending Depths",
       "description": "The central staircase spirals downward, each step carved with royal insignia from an ancient dynasty. Torches ignite automatically as you descend, revealing elaborate murals depicting the founding of Aldurath.One scene shows a majestic blue dragon—Kaelindrath—bestowing a glowing crystal upon the first king. Another depicts the same dragon battling a creature of living shadow, with humans fighting alongside her. The history painted here contradicts the common tales of dragon tyranny.The air grows increasingly warm as you continue downward. After descending hundreds of steps, you reach a vast underground cavern with a subterranean lake of steaming water. The ceiling glitters with luminescent crystals that create the illusion of a starry night sky.At the cavern's far end stand two imposing features: a massive iron door engraved with draconic symbols, and a smaller side passage partially concealed by stalactites.",
       "choices": [
-        { "text": "Approach the massive iron door", "nextBranch": " branchC1" },
+        { "text": "Approach the massive iron door", "nextBranch": "branchC1" },
         {
           "text": "Investigate the hidden side passage",
-          "nextBranch": " branchC2"
+          "nextBranch": "branchC2"
         },
         {
           "text": "Examine the underground lake more closely",
-          "nextBranch": " mysterLake"
+          "nextBranch": "mysterLake"
         }
       ]
     },
@@ -741,15 +741,15 @@
       "choices": [
         {
           "text": "Take the amulet and approach the iron door",
-          "nextBranch": " amuletPower"
+          "nextBranch": "amuletPower"
         },
         {
           "text": "Take the amulet and try the side passage",
-          "nextBranch": " amuletGuidance"
+          "nextBranch": "amuletGuidance"
         },
         {
           "text": "Cast the amulet back into the water, suspicious of its origins",
-          "nextBranch": " rejectAmulet"
+          "nextBranch": "rejectAmulet"
         }
       ]
     },
@@ -759,11 +759,11 @@
       "choices": [
         {
           "text": "Enter the now-opened door with new confidence",
-          "nextBranch": " blessedEntrance"
+          "nextBranch": "blessedEntrance"
         },
         {
           "text": "Use your new knowledge to look for hidden dangers first",
-          "nextBranch": " dragonInsight"
+          "nextBranch": "dragonInsight"
         }
       ]
     },
@@ -771,14 +771,14 @@
       "title": "The Iron Door",
       "description": "You stand before an immense iron door that must have taken dozens of craftsmen years to create. Draconic script flows across its surface in mesmerizing patterns, occasionally shifting position as if alive. The metal radiates heat, making it uncomfortable to touch directly.In the center of the door is a circular indentation about the size of your palm, surrounded by what appears to be a complex locking mechanism. Five metal rings encircle the indentation, each engraved with different symbols representing elements: fire, water, earth, air, and spirit.A worn plaque beneath the lock bears writing in the common tongue: The Guardian's Heart opens the way, but elements in harmony prepare the path.",
       "choices": [
-        { "text": "Try to force the door open", "nextBranch": " branchC1-2" },
+        { "text": "Try to force the door open", "nextBranch": "branchC1-2" },
         {
           "text": "Look for the key or activation mechanism",
-          "nextBranch": " branchC1-3"
+          "nextBranch": "branchC1-3"
         },
         {
           "text": "Examine the elemental rings more carefully",
-          "nextBranch": " elementalPuzzle"
+          "nextBranch": "elementalPuzzle"
         }
       ]
     },
@@ -788,15 +788,15 @@
       "choices": [
         {
           "text": "Arrange the rings according to the mural's pattern",
-          "nextBranch": " correctAlignment"
+          "nextBranch": "correctAlignment"
         },
         {
           "text": "Experiment with different elemental combinations",
-          "nextBranch": " elementalExperimentation"
+          "nextBranch": "elementalExperimentation"
         },
         {
           "text": "Look for additional clues in the cavern",
-          "nextBranch": " seekMoreClues"
+          "nextBranch": "seekMoreClues"
         }
       ]
     },
@@ -806,15 +806,15 @@
       "choices": [
         {
           "text": "Search nearby for something that might serve as the key",
-          "nextBranch": " keySearch"
+          "nextBranch": "keySearch"
         },
         {
           "text": "Place your hand directly into the energized indentation",
-          "nextBranch": " directContact"
+          "nextBranch": "directContact"
         },
         {
           "text": "Examine the lock more carefully now that it's activated",
-          "nextBranch": " activatedLock"
+          "nextBranch": "activatedLock"
         }
       ]
     },
@@ -827,13 +827,13 @@
       "title": "The Hidden Key",
       "description": "You methodically search the area around the door, looking for anything that might function as a key. After examining several unremarkable rocks and crevices, you notice something unusual about one of the nearby torch sconces.Unlike the others that line the cavern walls, this particular sconce has a dragon motif wrapped around its base. When you rotate it slightly, it comes loose in your hand, revealing a hidden compartment within the wall.Inside lies a crystalline key, roughly heart-shaped and pulsing with a faint reddish light that matches the central indentation in the door. It feels warm to the touch and seems to beat in rhythm with your own heart when you hold it.As you approach the door with the key, the draconic symbols react—glowing brighter and rearranging themselves into what appears to be a welcome message.",
       "choices": [
-        { "text": "Use the key to open the door", "nextBranch": " keypening " }
+        { "text": "Use the key to open the door", "nextBranch": "keypening " }
       ]
     },
     "keyOpening": {
       "title": "Threshold Crossed",
       "description": "You place the crystal key into the door's central indentation. It fits perfectly, and the moment contact is made, the key flares with brilliant red light. The draconic symbols across the door's surface activate in sequence, flowing like rivers of molten metal from the center outward.The massive door shudders, then silently swings inward despite its enormous weight. Beyond lies a vast chamber that takes your breath away—Kaelindrath's sanctum.The key, however, remains embedded in the door, beginning to melt and merge with the metal surface. Whatever magic it contained has been fully expended in opening this ancient passage.Warm air rushes past you from the chamber beyond, carrying the scent of incense and a deeper, more primal aroma that can only be dragon.",
-      "choices": [{ "text": "Enter the lair", "nextBranch": " bosPath1 " }]
+      "choices": [{ "text": "Enter the lair", "nextBranch": "bosPath1 " }]
     },
     "branchC2": {
       "title": "The Hidden Path",
@@ -841,15 +841,15 @@
       "choices": [
         {
           "text": "Take the boat across the lake",
-          "nextBranch": " branchC2-2"
+          "nextBranch": "branchC2-2"
         },
         {
           "text": "Follow the narrow path around the lake's edge",
-          "nextBranch": " branchC2-3"
+          "nextBranch": "branchC2-3"
         },
         {
           "text": "Examine the boat and shoreline more carefully",
-          "nextBranch": " boatInspection"
+          "nextBranch": "boatInspection"
         }
       ]
     },
@@ -859,7 +859,7 @@
     },
     "analyzeRitual": {
       "title": "Fractured Spellwork",
-      "description": "Elara studies the ritual below. \"They're using Kaelindrath's blood and the Heartstone in tandem—two anchors of the prison spell. If they succeed, the Shadow Sovereign won't just escape—it'll infect her mind first.\" You watch Kiran subtly alter one rune mid-chant. He's sabotaging the ritual from within. \"If we distract Drezden, Kiran might finish disrupting the sigils,\" Elara says. A small team of kobolds signals from a side tunnel, ready to act. You have moments before the final chant begins.",
+      "description": "Elara studies the ritual below. \"They're using Kaelindrath's blood and the Heartstone in tandem—two anchors of the prison spell. If they succeed, the Shadow Sovereign won't just escape—it'll infect her mind first.\"You watch Kiran subtly alter one rune mid-chant. He's sabotaging the ritual from within. \"If we distract Drezden, Kiran might finish disrupting the sigils,\"Elara says. A small team of kobolds signals from a side tunnel, ready to act. You have moments before the final chant begins.",
       "choices": [
         {
           "text": "Signal the kobolds to create a diversion while you rescue Kiran",
@@ -877,7 +877,7 @@
     },
     "rescueKiran": {
       "title": "Breaking the Circle",
-      "description": "The kobolds erupt into the chamber with war cries. Chaos spreads as cultists scramble. You slip through shadows, reaching Kiran. \"Now!\" he gasps, completing a counter-rune. The spell stutters. Drezden whirls, eyes glowing black. Kaelindrath's eye flickers toward you—recognition. You raise the Scale-Stone. Her breath falters... but steadies. She speaks, mind to mind: *Help me bind him.*",
+      "description": "The kobolds erupt into the chamber with war cries. Chaos spreads as cultists scramble. You slip through shadows, reaching Kiran. \"Now!\"he gasps, completing a counter-rune. The spell stutters. Drezden whirls, eyes glowing black. Kaelindrath's eye flickers toward you—recognition. You raise the Scale-Stone. Her breath falters... but steadies. She speaks, mind to mind: *Help me bind him.*",
       "choices": [
         {
           "text": "Join Kaelindrath in a psychic battle to bind Drezden",
@@ -891,7 +891,7 @@
     },
     "stoneDisruption": {
       "title": "Light Against Shadow",
-      "description": "You hurl the Scale-Stone into the ritual circle. It explodes in radiant energy, unraveling half the sigils. Drezden shrieks as Kaelindrath rears up, briefly free of her bonds. Elara chants an incantation, stabilizing the ritual backlash. \"Now! While he's weakened!\" You see three paths: finish him, save the dragon, or grab the Heartstone and flee.",
+      "description": "You hurl the Scale-Stone into the ritual circle. It explodes in radiant energy, unraveling half the sigils. Drezden shrieks as Kaelindrath rears up, briefly free of her bonds. Elara chants an incantation, stabilizing the ritual backlash. \"Now! While he's weakened!\"You see three paths: finish him, save the dragon, or grab the Heartstone and flee.",
       "choices": [
         { "text": "Strike Drezden down", "nextBranch": "finalBlow" },
         {
@@ -906,7 +906,7 @@
     },
     "finalConfrontation": {
       "title": "Champion's Stand",
-      "description": "You charge into the ritual circle. Drezden turns with contempt—until Kaelindrath stirs and roars. Your presence and the medallion shift the energy. He raises a corrupted staff, but it falters when you speak: \"She gave her heart to save us. You spit on her sacrifice.\" The circle implodes. Everyone is thrown back.",
+      "description": "You charge into the ritual circle. Drezden turns with contempt—until Kaelindrath stirs and roars. Your presence and the medallion shift the energy. He raises a corrupted staff, but it falters when you speak: \"She gave her heart to save us. You spit on her sacrifice.\"The circle implodes. Everyone is thrown back.",
       "choices": [
         {
           "text": "Challenge Drezden to a duel for the fate of the realm",
@@ -934,7 +934,7 @@
     },
     "finalBlow": {
       "title": "Judgment Delivered",
-      "description": "With the ritual unraveling, you charge through the chaos toward Drezden. He raises his corrupted staff, but you strike first—your blade, empowered by the Scale-Stone, slices through the shadow magic like fire through silk.\nDrezden stumbles back, clutching his chest as the Heartstone pulses behind him. \"You could have ruled beside me,\" he gasps.\n\"You chose power. I chose the realm,\" you reply, plunging your weapon deep. His body disintegrates into shadow, then nothing.\nKaelindrath’s bindings dissolve. She rises slowly, wounds closing, strength returning. Her eyes meet yours. *Your courage ends the cycle. What will you begin?*",
+      "description": "With the ritual unraveling, you charge through the chaos toward Drezden. He raises his corrupted staff, but you strike first—your blade, empowered by the Scale-Stone, slices through the shadow magic like fire through silk.\nDrezden stumbles back, clutching his chest as the Heartstone pulses behind him. \"You could have ruled beside me,\"he gasps.\n\"You chose power. I chose the realm,\"you reply, plunging your weapon deep. His body disintegrates into shadow, then nothing.\nKaelindrath’s bindings dissolve. She rises slowly, wounds closing, strength returning. Her eyes meet yours. *Your courage ends the cycle. What will you begin?*",
       "choices": [
         {
           "text": "Swear yourself as her new Scale-Bearer and protector of the seal",
