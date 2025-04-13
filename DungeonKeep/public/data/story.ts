@@ -1,21 +1,4 @@
-export interface Choice {
-  text: string;
-  nextBranch: string;
-}
-
-export interface StoryNode {
-  title: string;
-  description: string;
-  choices?: Choice[];
-  type?: "BOSS" | "DEATH" | "LOOP" | "NO_BOSS" | "NORMAL";
-}
-
-export interface StoryStructure {
-  title: string;
-  branches: Record<string, StoryNode>;
-}
-
-export const story: StoryStructure = {
+export const story = {
   title: "Dragon's Keep: An Interactive Dungeon Crawler Story",
   branches: {
     start: {

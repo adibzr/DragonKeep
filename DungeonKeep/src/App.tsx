@@ -1,35 +1,50 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import Choice from "./component/Choice";
 import Screen from "./component/Screen";
-import { story as data } from "./data/story";
-import { Choice as choiceType } from "./data/story";
+import { ChoiceType, StoryStructure } from "./types/types";
 
 function App() {
-  const title = data.title;
-
+  const [storyData, setStoryData] = useState<StoryStructure | null>(null);
   const [choices, setChoices] = useState<{
-    choices: choiceType[];
+    choices: ChoiceType[];
     description: string;
   }>({
-    choices: data.branches.start.choices || [],
-    description: data.branches.start.description,
+    choices: [],
+    description: "",
   });
 
+  useEffect(() => {
+    fetch("/data/story.json")
+      .then((response) => response.json())
+      .then((data) => {
+        setStoryData(data);
+        setChoices({
+          choices: data.branches.start.choices || [],
+          description: data.branches.start.description,
+        });
+      })
+      .catch((error) => console.error("Error loading story data:", error));
+  }, []);
+
   const handleChoice = (nextBranch: string) => {
-    const nextChoices = data.branches[nextBranch];
-    if (nextChoices) {
-      console.log(nextChoices.description);
-      setChoices({
-        choices: nextChoices.choices || [],
-        description: nextChoices.description,
-      });
+    if (storyData) {
+      const nextChoices = storyData.branches[nextBranch];
+      if (nextChoices) {
+        console.log(nextChoices.description);
+        setChoices({
+          choices: nextChoices.choices || [],
+          description: nextChoices.description,
+        });
+      }
     }
   };
 
+  if (!storyData) return <div>Loading...</div>;
+
   return (
     <div className="app">
-      <h1 className="title">{title}</h1>
+      <h1 className="title">{storyData.title}</h1>
       <Screen desc={choices.description} />
       <div className="choice-container">
         {choices.choices.map((choice, index) => (
