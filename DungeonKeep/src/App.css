@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+button,
+textarea,
+input {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  width: 90%;
+  height: 90%;
+  border: 2px solid white;
+  padding: 1.5rem;
+  overflow-y: scroll;
+  font-size: x-large;
+}
+
+.choice-container {
+  display: grid;
+  width: 90%;
+  grid-template-columns: auto;
+  justify-content: center;
+  margin-block: 1.5rem;
+  grid-auto-flow: column;
+  gap: 1rem;
+  font-size: large;
+}
+
+.choice {
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid white;
+  cursor: pointer;
+}
